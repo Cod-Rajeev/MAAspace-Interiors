@@ -13,3 +13,6 @@ Thumbs.db
 
 # भी कभी GitHub पर नहीं डालनी चाहिए अगर उसमें secrets हों।
 .env 
+
+# git Ignor file uplode na ho
+.gitignore
