@@ -1,0 +1,15 @@
+# node_modules को ignore करो
+node_modules/
+
+# build folder
+dist/
+build/
+
+# system files
+.DS_Store
+Thumbs.db
+
+
+
+# भी कभी GitHub पर नहीं डालनी चाहिए अगर उसमें secrets हों।
+.env 
