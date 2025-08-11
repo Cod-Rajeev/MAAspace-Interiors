@@ -2,7 +2,7 @@ import React from 'react'
 
 import FirstImg from "../FirstSction/box1.jpg"
 import SecondImg from "../FirstSction/box2.jpg"   
-import ThirdImg from "../FirstSction/box3.png"
+import ThirdImg from "../FirstSction/box3.jpg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";

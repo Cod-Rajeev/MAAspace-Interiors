@@ -6,18 +6,19 @@ const SixSection = () => {
         "My home renovation was beautifully handled by the MAAspace Interiors team. They brought amazing creativity and perfection to every detail. The furniture quality is outstanding and their timeline was impressive. I’m truly happy with the results and would highly recommend them for premium interior solutions !",
       name1: "Mr. Rahul Sharma",
       imageUrl1:
-        "https://cdn.pixabay.com/photo/2016/09/24/03/20/man-1690965_1280.jpg",
+        "https://media.istockphoto.com/id/1289899046/photo/sick-old-man-woke-up-in-the-middle-of-night-while-sleeping-due-to-fever-and-cough.jpg?s=2048x2048&w=is&k=20&c=lnG4jKAypIPivq8PdWjVfGhWB5PhYdqvXhSLyMq1nM8=",
 
       description2:
         "The team at MAAspace Interiors transformed our space beyond expectations. Their professionalism, smart space planning, and custom furniture ideas were top-notch. We had a wonderful experience and would gladly recommend them to anyone who values design excellence and quality workmanship. Thank you, team!",
       name2: "Mrs. Neha Mehra",
-      imageUrl2: "https://i.imgur.com/yXOvdOSs.jpg",
+      imageUrl2:
+        "https://plus.unsplash.com/premium_photo-1682089841647-458dd29dc0ee?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 
       description3:
         "I hired MAAspace Interiors for my apartment interior and they exceeded all my expectations. From color coordination to furniture design, everything was handled with care and precision. The staff was cooperative and full of brilliant ideas. I’m extremely satisfied with their work and would surely recommend them to others.",
       name3: "Mr. Arvind Khurana",
       imageUrl3:
-        "https://cdn.pixabay.com/photo/2023/06/16/15/10/man-8068201_1280.jpg",
+        "https://plus.unsplash.com/premium_photo-1722682239201-21c8173e776b?q=80&w=843&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       imageSize: 90,
     };
    
