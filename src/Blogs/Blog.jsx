@@ -6,7 +6,7 @@ const Blog = () => {
     <main className="mx-auto items-center px-12 py-12">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-3/4 mx-auto">
-          <div className="bg-white rounded-xl shadow-md overflow-hidden mb-12 text-justify">
+          <div className="bg-white rounded-xl shadow-md overflow-hidden mb-12">
             <img
               src={Blog1}
               alt="Modern Home Interior Design"
