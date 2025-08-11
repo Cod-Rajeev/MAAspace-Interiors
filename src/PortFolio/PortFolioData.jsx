@@ -39,7 +39,7 @@ const interiorDesignData = [
     title: "Modern Pooja Room",
     alt: "Modern living room interior",
     description:
-      "Modern Pooja Room designs blend spiritual elegance with contemporary aesthetics. These spaces are thoughtfully crafted using clean lines, soft lighting, and minimalistic decor to create a calm and sacred atmosphere. Often adorned with marble backdrops, wooden panels, or floating shelves, modern pooja rooms reflect both tradition and style. ..",
+      "Modern pooja room designs blend tradition with contemporary style, using clean lines, soft lighting, and minimal décor to create a peaceful space. Marble backdrops, wooden panels, and brass accents add elegance, while glass partitions and compact wall-mounted units keep the area functional, organized, and aesthetically pleasing for daily prayers.",
   },
   {
     id: 2,
@@ -47,21 +47,21 @@ const interiorDesignData = [
     video: galleryvideo1,
     title: " Modern Home Design",
     description:
-      "Modern Home Design emphasizes simplicity, functionality, and elegance. With clean architectural lines, open floor plans, and minimalistic aesthetics, modern homes create a sense of space and calm. Large windows invite natural light, while neutral tones and bold accents add depth and style. Materials like glass, steel, and concrete are often used to achieve a sleek and contemporary look. Smart home features and sustainable design elements are frequently integrated, ",
+      "Modern home design focuses on simplicity, functionality, and elegance, featuring clean lines, open layouts, and minimal décor. Large windows welcome natural light, while neutral tones with bold accents enhance style. Materials like glass, steel, and concrete create a sleek look, complemented by smart technology and sustainable design for modern living.",
   },
   {
     id: 3,
     image: gallery3,
     title: "Urban Nest Interiors",
     description:
-      "Urban Nest Interiors blends the warmth of home with the sophistication of modern city life. Designed for the contemporary dweller, this interior style emphasizes comfort, compact elegance, and functional design. Think cozy corners, multi-functional furniture, smart storage solutions, and a neutral color palette accented with bold urban textures like concrete, metal, and wood. ",
+      "Urban Nest Interiors blends the warmth of home with the sophistication of modern city life. Designed for the contemporary dweller, this interior style emphasizes comfort, compact elegance, and functional design. Think cozy corners, multi-functional furniture, smart storage solutions, and a neutral color palette accented with bold urban textures like concrete and metal.",
   },
   {
     id: 4,
     image: gallery4,
     title: "Luxury Corridor",
     description:
-      "Luxury Corridor design is all about creating a grand first impression. This opulent passageway combines elegance and architectural finesse through high-end materials like Italian marble flooring, gold-accented light fixtures, textured wall panels, and designer ceiling lights. Statement art pieces, decorative mirrors, or sculptural elements add personality,",
+      "Luxury corridor design focuses on creating a grand first impression by blending elegance with architectural finesse. High-end materials like Italian marble flooring, gold-accented light fixtures, textured wall panels, and designer ceiling lights exude opulence. Statement art, decorative mirrors, or sculptural elements add personality, while subtle lighting enhances depth, warmth, and sophistication.",
   },
   {
     id: 5,
@@ -69,21 +69,21 @@ const interiorDesignData = [
     video: galleryvideo3,
     title: "Elegant Dining Area",
     description:
-      "Elegant Dining Area design blends comfort with sophistication, creating a warm yet refined space for shared meals and conversations. It features a luxurious dining table—often in wood, marble, or glass—paired with upholstered chairs that balance style and ergonomics. A statement chandelier or pendant light enhances ambiance, while soft wall tones and curated art elevate the mood.",
+      "Elegant dining area design blends comfort with sophistication, creating a warm yet refined setting for meals, celebrations, and conversations. A luxurious table in wood, marble, or glass pairs beautifully with upholstered chairs that combine style and comfort. Statement lighting, soft wall tones, curated art, and thoughtful décor details enhance the ambiance, making the space inviting, stylish, and unforgettable.",
   },
   {
     id: 6,
     image: gallery6,
     title: "Wardrobe",
     description:
-      "Wardrobe design is a perfect fusion of functionality and aesthetic appeal, offering smart storage solutions while enhancing the visual appeal of the bedroom. Modern wardrobes feature sleek sliding or hinged doors, built-in lighting, and modular compartments for clothes, accessories, and shoes. Materials like wood, glass, and laminates are used to match various interior styles. Whether it's a walk-in wardrobe or a compact fitted unit, the layout is optimized for accessibility and organization. Mirrors, minimalist handles, and neutral tones elevate the design, turning a simple storage space into a stylish and efficient element of home decor.",
+      "Wardrobe design combines functionality with aesthetic appeal, offering smart storage while enhancing bedroom style. Modern wardrobes feature sleek sliding or hinged doors, built-in lighting, and modular compartments for clothes, accessories, and shoes. Using materials like wood, glass, or laminates, they suit various interiors. Mirrors, neutral tones, and minimalist details elevate their elegance.",
   },
   {
     id: 7,
     image: gallery7,
     title: "Double Bed Room",
     description:
-      "Double Bed Room designs offer the ideal blend of comfort, space, and elegance for couples or shared accommodations. Featuring a spacious double bed as the focal point, the room is styled with coordinated furniture like side tables, wardrobes, and soft lighting. Neutral color palettes with accents of texture, art, and natural light create a soothing and functional atmosphere. Smart storage solutions, cozy linens, and thoughtful decor bring a personalized charm.",
+      "Double bedroom designs blend comfort, space, and elegance, making them perfect for couples or shared living. A spacious double bed serves as the focal point, complemented by coordinated furniture like side tables and wardrobes. Neutral tones, textured accents, and soft lighting create a soothing atmosphere, while smart storage and personalized décor add charm.",
   },
   {
     id: 8,
@@ -91,21 +91,21 @@ const interiorDesignData = [
     video: galleryvideo6,
     title: "Wall Design",
     description:
-      "Wall Design is the art of transforming plain walls into expressive visual statements. From textured paint finishes and 3D wall panels to wallpapers, wooden cladding, or artistic murals—wall design plays a crucial role in defining a space’s mood. Modern wall trends incorporate elements like geometric patterns, metallic accents, or minimalist tones to enhance aesthetics. Accent walls, vertical gardens, or LED-lit panels can turn a boring surface into a dynamic focal point. ",
+      "Wall design transforms plain surfaces into expressive visual statements, using textured paints, 3D panels, wallpapers, wooden cladding, or murals. Modern trends feature geometric patterns, metallic accents, and minimalist tones to elevate interiors. Accent walls, vertical gardens, or LED-lit panels create dynamic focal points, enhancing both the mood and style of a space.",
   },
   {
     id: 9,
     image: gallery9,
     title: "Luxury Kitchen",
     description:
-      "Luxury Kitchen blends high-end aesthetics with top-tier functionality. Featuring premium materials like marble countertops, modular cabinetry, smart appliances, and ambient lighting, it redefines everyday cooking into a refined experience. A luxury kitchen emphasizes space optimization, elegant finishes, and seamless designs. Whether it’s an open-plan layout or an island centerpiece, every element is crafted to offer comfort, convenience, and class — making the kitchen not just a workspace, but the heart of a luxurious home.",
+      "Luxury kitchen design blends high-end aesthetics with functionality, featuring marble countertops, modular cabinetry, smart appliances, and ambient lighting. Emphasizing space optimization and elegant finishes, it offers seamless style and comfort. Whether open-plan or with a statement island, every detail adds convenience and sophistication the home.",
   },
   {
     id: 10,
     image: gallery10,
     title: "Pooja Room",
     description:
-      "A spiritual and peaceful pooja room with traditional wooden carvings and ambient lighting Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae numquam quae, nostrum blanditiis et molestias sunt accusantium enim iste earum consectetur, sapiente impedit sed vero voluptatibus officiis, temporibus vitae eaque quia provident reprehenderit repellat quam vel? Perspiciatis cumque in minima..",
+      "A spiritual and peaceful pooja room with traditional wooden carvings and ambient lighting creates a serene atmosphere for prayer. Warm tones, intricate details, and soft illumination enhance the sacred feel. Minimal clutter, organized storage, and thoughtful décor blend tradition with elegance, making it a calming and functional space for devotion.",
   },
   {
     id: 11,
@@ -113,36 +113,36 @@ const interiorDesignData = [
     video: galleryvideo7,
     title: "Stair Case",
     description:
-      "Stair Case design in modern homes is more than just functional — it’s a statement piece. With sleek railings, floating steps, and innovative use of materials like glass, wood, or steel, the staircase becomes an architectural highlight. Ambient lighting and thoughtful detailing enhance its elegance. Whether spiral, straight, or cantilevered, a well-designed staircase adds vertical beauty, connects spaces seamlessly, and reflects the overall style and sophistication of the interior.",
+      "Staircase design in modern homes goes beyond functionality, becoming a striking architectural feature. Sleek railings, floating steps, and materials like glass, wood, or steel create elegance and style. Ambient lighting adds depth, while spiral, straight, or cantilevered layouts seamlessly connect spaces, enhancing both aesthetics and the sophistication of the interior.",
   },
   {
     id: 12,
     image: gallery12,
     title: "Guest Room",
     description:
-      "Guest Room interiors should evoke comfort, elegance, and warmth. A soothing color palette, cozy bedding, and functional furniture ensure a welcoming atmosphere for visitors. Thoughtfully placed lighting, stylish décor accents, and smart storage elevate the experience. Whether it's a minimal modern look or a blend of traditional aesthetics, a well-designed guest room provides a luxurious stay while making guests feel right at home.",
+      "Guest room interiors blend comfort, elegance, and warmth to create a welcoming retreat. Soft color palettes, plush bedding, and functional furniture ensure relaxation, while thoughtful lighting and stylish décor add charm. Smart storage keeps the space organized, making guests feel at home in a luxurious yet inviting environment.",
   },
   {
     id: 13,
     image: gallery13,
     title: "Kides Room",
     description:
-      "Kids Room design blends creativity, comfort, and functionality. Vibrant colors, playful wall art, and themed décor ignite imagination and joy. Smart storage solutions keep toys and books organized, while safe furniture ensures a child-friendly environment. Whether it's a dreamy princess space or an adventurous superhero zone, a well-designed kids room supports learning, fun, and restful sleep — creating a world where children can grow, explore, and express themselves freely.",
+      "Kids room design combines creativity, comfort, and functionality to inspire imagination and joy. Vibrant colors, playful wall art, and themed décor create a lively atmosphere, while smart storage keeps toys and books organized. Safe, child-friendly furniture ensures comfort, making the space perfect for learning, play, and restful sleep.",
   },
   {
     id: 14,
     // image: gallery14,
     video: galleryvideo9,
-    title: "Behind the Scenes: The Making of a Dream Home Interior",
+    title: "Behind the Scenes:",
     description:
-      "Crafting a dream home interior is a journey of imagination, design precision, and emotional connection. It begins with understanding the lifestyle and personality of the homeowner — their needs, preferences, and aspirations. Every detail matters — from selecting the perfect color palette to choosing materials that balance luxury with comfort. Designers work closely with architects, craftsmen, and vendors to bring the vision to life. Mood boards, 3D renderings, and on-site visits shape the space with purpose and harmony.",
+      "Crafting a dream home interior is a blend of imagination, precision, and personal touch. It starts by understanding the homeowner’s lifestyle, needs, and aspirations. From selecting colors to choosing materials that balance luxury and comfort, every detail matters. Collaboration with experts ensures a harmonious.",
   },
   {
     id: 15,
     image: gallery15,
     title: "The Minimal Mood",
     description:
-      "Simplicity meets sophistication in The Minimal Mood. This design philosophy embraces clean lines, open spaces, and a calming color palette to create an atmosphere of clarity and peace. Each element in the room serves a purpose — there is no clutter, only intentional design. Natural light, neutral tones, and sleek furniture come together to reflect a serene and modern lifestyle. This style is not about lacking; it’s about refining. By focusing on “less is more,” The Minimal Mood offers a timeless, functional, and elegant space where the mind can breathe and beauty lies in subtlety.",
+      "Simplicity meets sophistication in The Minimal Mood, where clean lines, open spaces, and calming tones create clarity and peace. Every element is purposeful, with no clutter—only intentional design. Natural light, neutral colors, and sleek furniture define a serene, modern lifestyle, proving that “less is more” in timeless elegance.",
   },
 ];
 export default interiorDesignData;

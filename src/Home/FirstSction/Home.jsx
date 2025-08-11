@@ -80,7 +80,7 @@ const Home = () => {
               }}
             />
             <div className="absolute bottom-3 left-1/2 -translate-x-1/2 text-white bg-black/60 px-3 py-2 rounded-md w-[90%] md:w-[70%]">
-              <h1 className="text-base md:text-2xl font-bold mb-1 md:mb-4 text-center">Modular Kitchens</h1>
+              <h1 className="text-base md:text-2xl font-bold mb-1 md:mb-4 text-center">Modular Room</h1>
               <p className="text-xs md:text-lg font-medium text-center leading-tight md:leading-normal">
                 Discover kitchens that blend ergonomic layouts with sleek, modern style. Each space is thoughtfully crafted to enhance daily functionality, optimize movement, and elevate the cooking experience — all while maintaining a clean, sophisticated aesthetic appeal.
               </p>

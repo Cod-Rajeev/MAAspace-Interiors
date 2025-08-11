@@ -46,8 +46,8 @@ const PortFolio = () => {
                 <h2 className="text-yellow-700 font-semibold text-xl md:text-2xl mb-2 ">
                   {item.title}
                 </h2>
-                <p className="text-neutral-800 poppins-medium md:text-lg grow">
-                  {item.description.slice(0, 150)}
+                <p className="text-neutral-800 poppins-medium md:text-base grow">
+                  {item.description}
                 </p>
               </div>
             </article>
