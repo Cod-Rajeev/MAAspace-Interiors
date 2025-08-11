@@ -17,7 +17,7 @@ const AboutUs = () => {
             <h2 class="font-bold text-lg sm:text-xl md:text-1xl ">
               Founder & Creative Director
             </h2>
-            <div className="flex flex-row gap-20 items-start">
+            <div className="flex flex-row gap-10 items-start">
               {/* Timeline */}
               <div className="flex flex-col">
                 <h1 className="text-sm md:text-2xl font-bold">2000</h1>
@@ -26,7 +26,7 @@ const AboutUs = () => {
               </div>
 
               {/* Contact Info (right beside timeline) */}
-              <div className="space-y-4 text-white text-sm md:text-base p-4">
+              <div className="space-y-4 text-white text-sm md:text-base p-0">
                 <p>
                   <strong>Email:</strong> maainteriors01@gmail.com
                 </p>

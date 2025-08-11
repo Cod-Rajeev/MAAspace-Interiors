@@ -58,7 +58,7 @@ const Footer = () => {
           <div className="space-y-4 md:px-0 px-20 font-semibold text-base">
             <h6 className="uppercase text-lg">Contact</h6>
             <p className="flex items-center gap-2">
-              <MapPin /> New York, NY 10012, US
+              <MapPin /> New Delhi, Delhi 10012, India
             </p>
             <p className="flex items-center gap-2">
               <MailPlus /> maainteriors01@gmail.com
@@ -94,7 +94,6 @@ const Footer = () => {
     </footer>
   );
 }
-
 
 
 
