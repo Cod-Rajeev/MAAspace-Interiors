@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 border-b border-gray-300 bg-neutral-400 text-black">
+    <nav className="fixed top-0 left-0 w-full z-50 border-b border-gray-300 bg-gray-100 text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
           {/* Logo */}
@@ -40,15 +40,15 @@ const Navbar = () => {
           </Link>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-6 text-lg font-bold ">
-            <Link to={"/"} className="hover:text-yellow-200 transition">
+          <div className="hidden md:flex space-x-6 text-lg poppins-semibold ">
+            <Link to={"/"} className="hover:text-amber-700 transition">
               Home
             </Link>
             {/* <Link to={'/services'} className="hover:text-yellow-200 transition">Services</Link> */}
             <li className="relative group list-none">
               <Link
                 to={"/Services"}
-                className="cursor-pointer hover:text-yellow-300"
+                className="cursor-pointer hover:text-amber-700"
               >
                 Services
               </Link>
@@ -123,7 +123,7 @@ const Navbar = () => {
             <li className="relative group list-none">
               <Link
                 to={"/designs"}
-                className="cursor-pointer hover:text-yellow-300"
+                className="cursor-pointer hover:text-amber-700"
               >
                 Designs
               </Link>
@@ -147,7 +147,7 @@ const Navbar = () => {
                       <div key={design.id}>
                         <Link
                           to={`/designs/${design.id}`}
-                          className="text-black hover:text-amber-500"
+                          className="text-black hover:text-amber-700 p-3"
                         >
                           {design.title}
                         </Link>
@@ -158,24 +158,21 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <Link
-              to={"/portfolio"}
-              className="hover:text-yellow-200 transition"
-            >
+            <Link to={"/portfolio"} className="hover:text-amber-700 transition">
               Gallery
             </Link>
-            <Link to={"/blog"} className="hover:text-yellow-200 transition">
+            <Link to={"/blog"} className="hover:text-amber-700 transition">
               Blog
             </Link>
             {/* <a href="#" className="hover:text-yellow-200 transition">
               Contact Us
             </a> */}
-            <Link to={"/AboutUs"} className="hover:text-yellow-200 transition">
+            <Link to={"/AboutUs"} className="hover:text-amber-700 transition">
               About Us
             </Link>
             <Link
               to={"/ConsultationBooking"}
-              className="hover:text-yellow-200 transition"
+              className="hover:text-amber-700 transition"
             >
               Consultation Booking
             </Link>
@@ -187,11 +184,11 @@ const Navbar = () => {
               onClick={toggleMenu}
               aria-label="Toggle Menu"
               aria-expanded={isExpanded}
-              className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-700"
+              className="focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900 "
             >
               {!isExpanded ? (
                 <svg
-                  className="h-6 w-6 text-gray-200"
+                  className="h-6 w-6 text-gray-900"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
@@ -206,7 +203,7 @@ const Navbar = () => {
                 </svg>
               ) : (
                 <svg
-                  className="h-6 w-6 text-gray-200"
+                  className="h-6 w-6 text-gray-900"
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"

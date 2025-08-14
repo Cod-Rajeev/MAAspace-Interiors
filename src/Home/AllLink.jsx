@@ -11,7 +11,7 @@ const AllLink = () => {
   return (
     <>
      <Home/>
-     <SecondSection/>
+     {/* <SecondSection/> */}
      <ThirdSectin/>
      <ForthSection/>
      <FiveSection/>

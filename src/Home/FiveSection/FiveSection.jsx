@@ -19,9 +19,9 @@ const FiveSection = () => {
         </p>
       </div>
 
-      <div className="flex flex-col md:flex-row items-center md:items-start gap-10 md:gap-16 ">
+      <div className="flex flex-col md:flex-row items-center md:items-center gap-10 md:gap-16 ">
         {/* Video Section */}
-        <div className="relative group w-full md:w-full max-w-lg shadow-xl rounded-xl overflow-hidden transform transition-transform duration-300 hover:-skew-y-1 hover:scale-[1.04] mt-10">
+        <div className="relative group w-full md:w-full max-w-lg shadow-xl rounded-xl overflow-hidden transform transition-transform duration-300 hover:-skew-y-1 hover:scale-[1.04] justify-center flex items-center">
           <video
             crossOrigin=""
             controls
@@ -38,12 +38,18 @@ const FiveSection = () => {
 
         {/* Testimonial & Button */}
         <div className="w-full md:w-full  text-center md:text-left bg-slate-100 p-2 md:p-10 rounded-xl shadow-lg">
-          <blockquote className="poppins-regular text-gray-700 text-xl md:text-2xl leading-relaxed mb-2 relative  before:absolute before:-top-4 before:-left-6 ">
-            Sharma’s Family wanted a home that reflected elegance and tradition.
-            MAAspace Interiors transformed their space with a serene pooja room,
-            stylish interiors, and modern functionality. “It’s exactly how we
-            dreamed,” said Mr. Sharma. Their home now beautifully blends
-            comfort, culture, and contemporary design.
+          <blockquote className="poppins-regular text-gray-700 text-xl md:text-lg  mb-2 relative  before:absolute before:-top-4 before:-left-6 ">
+            Sharma’s Family dreamed of a home that perfectly captured the charm
+            of tradition while embracing the elegance of modern living. They
+            wanted a space where every corner spoke of warmth, culture, and
+            timeless beauty. MAAspace Interiors turned this vision into reality
+            with meticulous planning and artistic precision.
+            <br /> <br />
+             The transformation
+            began with a serene pooja room, designed as a peaceful sanctuary
+            that radiates spiritual calm. The rest of the home was adorned with
+            stylish interiors, premium finishes, and thoughtful layouts that
+            bring together aesthetics and functionality. 
           </blockquote>
           <p className="font-semibold text-gray-900 text-base md:text-lg">
             Sharma’s Family

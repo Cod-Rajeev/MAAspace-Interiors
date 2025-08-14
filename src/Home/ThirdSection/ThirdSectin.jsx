@@ -49,7 +49,7 @@ const ThirdSectin = () => {
     <div className="bg-neutral-700 min-h-auto flex flex-col items-center px-4 py-12">
       <section className="max-w-7xl w-full text-center mb-10 ">
         <h1 className="text-3xl md:text-5xl cormorant-garamond-bold mb-3 text-white select-none uppercase">
-          Signature Services
+          Masterpiece Services
         </h1>
         <p className="text-gray-200 max-w-2xl mx-auto text-sm md:text-xl select-none">
           Comprehensive solutions for every space in your home
@@ -76,7 +76,7 @@ const ThirdSectin = () => {
                 <h2 className="text-yellow-700 font-semibold text-xl md:text-2xl mb-2 select-none">
                   Full Home Interiors
                 </h2>
-                <p className="text-neutral-500 text-base font-semibold md:text-xl grow">
+                <p className="text-neutral-500 text-base font-semibold md:text-lg grow">
                   Complete home transformation cohesive design language across
                   all.
                 </p>
@@ -101,7 +101,7 @@ const ThirdSectin = () => {
                 <h2 className="text-yellow-700 font-semibold text-xl md:text-2xl mb-2 select-none">
                   Modular Kitchens
                 </h2>
-                <p className="text-neutral-500 text-base font-semibold md:text-xl grow">
+                <p className="text-neutral-500 text-base font-semibold md:text-lg grow">
                   Ergonomic, stylish kitchens designed for functionality and
                   aesthetics.
                 </p>
@@ -126,7 +126,7 @@ const ThirdSectin = () => {
                 <h2 className="text-yellow-700 font-semibold text-xl md:text-2xl mb-2 select-none">
                   Wardrobe Solutions
                 </h2>
-                <p className="text-neutral-500 text-base font-semibold md:text-xl grow">
+                <p className="text-neutral-500 text-base font-semibold md:text-lg grow">
                   Custom storage solutions that maximize space and organization.
                 </p>
               </div>

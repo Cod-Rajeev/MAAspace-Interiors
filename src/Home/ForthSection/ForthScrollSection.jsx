@@ -1,30 +1,34 @@
 import React, { useState } from "react";
 
-import scrolone from "./scrolone.avif";
-import scroltwo from "./scroltwo.avif";       
-import scrolthree from "./scrolthree.avif";
-import scrolfor from "./scrolfor.avif";
+import scrolone from "./scrolone.jpg";
+import scroltwo from "./scroltwo.jpg";       
+import scrolthree from "./scrolthree.jpg";
+import scrolfor from "./scrolfor.jpg";
 
 const images = [
   {
     src: scrolone,
-    alt: "Modern luxurious bedroom with an elegant interior design featuring sleek furniture, ambient lighting, and stylish decor",
-    description: "Elegant bedroom with premium finishes and custom storage",
+    alt: "Stylish dining room blending comfort, elegance, and unforgettable family moments.",
+    description:
+      "Stylish dining room blending comfort, elegance, and unforgettable family moments.",
   },
   {
     src: scroltwo,
-    alt: "Cozy living room with natural light filtering through large windows, minimalist furniture, wooden flooring, and indoor plants",
-    description: "Cozy living room radiating warmth with natural light and minimalist design",
+    alt: "Cozy book room designed for relaxation, inspiration, and timeless reading moments.",
+    description:
+      "Cozy book room designed for relaxation, inspiration, and timeless reading moments.",
   },
   {
     src: scrolthree,
-    alt: "Modern kitchen with a central island, high-end appliances, pendant lighting, and clean white cabinetry",
-    description: "Sleek modern kitchen with functional island and state-of-the-art appliances",
+    alt: "Modern TV room combining comfort, style, and the ultimate entertainment experience.",
+    description:
+      "Modern TV room combining comfort, style, and the ultimate entertainment experience.",
   },
   {
     src: scrolfor,
-    alt: "Stylish bathroom with a walk-in shower, contemporary fixtures, marble countertops, and subtle lighting",
-    description: "Contemporary bathroom design with luxurious fixtures and walk-in shower",
+    alt: "Welcoming guest room offering comfort, warmth, and a touch of elegance.",
+    description:
+      "Welcoming guest room offering comfort, warmth, and a touch of elegance.",
   },
 ];
 

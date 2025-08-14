@@ -30,12 +30,12 @@ const SixSection = () => {
         </h1>
       </section>
 
-      <section class="max-w-4xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <section class="max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
         {/* <!-- Card 1 --> */}
         <article class="hover:scale-[1.04] card bg-white rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
           <div class="p-6 text-left flex flex-col grow">
-            <p class="text-neutral-700 poppins-regular text-base grow text-justify">
-             {user.description1}
+            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+              {user.description1}
             </p>
             <div className="text-xl poppins-semibold flex flex-col items-center  justify-center text-center">
               <h1>{user.name1}</h1>
@@ -55,8 +55,8 @@ const SixSection = () => {
         {/* <!-- Card 2 --> */}
         <article class="hover:scale-[1.04] card  rounded-2xl shadow-2xl   card bg-white transform-gpu duration-300 flex flex-col">
           <div class="p-6 text-left flex flex-col grow">
-            <p class="text-neutral-700 poppins-regular text-base grow text-justify">
-             {user.description2}
+            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+              {user.description2}
             </p>
 
             <div className="text-xl poppins-semibold flex flex-col items-center mt-4 justify-center text-center">
@@ -77,8 +77,8 @@ const SixSection = () => {
         {/* <!-- Card 3 --> */}
         <article class="hover:scale-[1.04] card bg-white   rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
           <div class="p-6 text-left flex flex-col grow">
-            <p class="text-neutral-700 poppins-regular text-base grow text-justify">
-             {user.description3}
+            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+              {user.description3}
             </p>
 
             <div className="text-xl poppins-semibold flex flex-col items-center mt-4 justify-center text-center">
