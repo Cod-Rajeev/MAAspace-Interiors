@@ -74,11 +74,11 @@ const Form = () => {
                   className="w-full p-3 border  border-amber-700 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-700 text-amber-700"
                 >
                   <option value="">Select Budget Range</option>
-                  <option value="Residential">Under $5 Lakhs</option>
-                  <option value="Commercial">$5-10 Lakhs</option>
-                  <option value="Office_Space">$10-20 Lakhs</option>
-                  <option value="Hospitality">$20-50 Lakhs</option>
-                  <option value="Retail">Over $50 Lakhs</option>
+                  <option value="Residential">Under ₹5 Lakhs</option>
+                  <option value="Commercial">₹5-10 Lakhs</option>
+                  <option value="Office_Space">₹10-20 Lakhs</option>
+                  <option value="Hospitality">₹20-50 Lakhs</option>
+                  <option value="Retail">Over ₹50 Lakhs</option>
                   <option value="other">Not Sure</option>
                 </select>
 
