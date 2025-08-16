@@ -148,11 +148,11 @@ const Home = () => {
                       "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98b84167-474c-438b-8b97-d88ac48851fa.png";
                   }}
                 />
-                <div className="absolute bottom-0  pt-2 md:pt-12 text-white bg-black/70 w-full h-full flex flex-col justify-center">
+                <div className="absolute bottom-0 pt-2 md:pt-12 text-white bg-black/70 w-full h-full flex flex-col justify-center">
                   <h1 className="text-lg sm:text-2xl md:text-5xl font-bold px-4 sm:px-10 md:px-20 lg:px-72 text-center delius-regular">
                     Blending Tradition and Modernity in Every Home
                   </h1>
-                  <p className="text-xs sm:text-base md:text-2xl text-center px-16 sm:px-10 md:px-20 lg:px-36 pt-4 md:pt-7">
+                  <p className="text-xs sm:text-base md:text-2xl text-center px-6 md:px-20 lg:px-36 pt-4 md:pt-7">
                     <b className="text-amber-500">MAAspace</b> led by founder
                     <b className="text-amber-500"> B. L. Sharma,</b> has been
                     transforming homes <b>since 2000</b> — beautifully honoring
