@@ -6,52 +6,64 @@ import {
   MessageCircleHeart,
   Instagram,
   Facebook,
-  Linkedin,
-  Twitter,
+  MessageCirclePlus,
 } from "lucide-react";
-import { Link } from 'react-router-dom';
-
 
 
 const Footer = () => {
   return (
     <footer className="relative bg-neutral-800 text-white overflow-x-hidden ">
-      <div className="p-0 md:p-10">
+      <div className="p-0 md:px-10 md:py-6">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           {/* Brand / Description */}
           <div>
-            <h6 className="text-2xl text-amber-500 pb-2 kaushan-script-regular">
+            <h6 className="text-2xl pb-2">
               MAAspace Interiors
             </h6>
             <p className="text-sm leading-relaxed">
               MAAspace Interiors is a leading home interior design company
-              dedicated to turning your dream spaces into reality. We blend
-              beauty, functionality, and comfort to create stunning interiors
-              tailored to your lifestyle. We believe your home is more than just
-              a space – it's a reflection of your personality and a truly
-              memorable experience.
+              turning dream spaces into reality. We blend beauty, functionality,
+              and comfort to craft stunning, thoughtful interiors tailored to
+              your lifestyle. Your home is more than a space—it reflects your
+              personality and creates a truly memorable experience.
             </p>
           </div>
 
           {/* Social Links */}
           <div className="font-semibold text-base px-20 space-y-4">
             <h6 className="uppercase text-lg">Social Links</h6>
-            <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
+            <a
+              href="https://www.instagram.com/maaspaceinteriors?igsh=MTl5czltcWRwbGtnbA%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 items-center gap-3 flex flex-row"
+            >
               <Instagram />
               Instagram
-            </Link>
-            <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1Zzxucd8jf/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 items-center gap-3 flex flex-row"
+            >
               <Facebook />
               Facebook
-            </Link>
-            <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
-              <Linkedin />
-              LinkedIn
-            </Link>
-            <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
+            </a>
+            <a
+              href="http://wa.me/916350498559"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 items-center gap-3 flex flex-row"
+            >
+              <MessageCirclePlus />
+              Whatsapp
+            </a>
+            {/* <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
               <Twitter />
               Twitter
-            </Link>
+            </Link> */}
           </div>
 
           {/* Contact Info */}
@@ -65,9 +77,6 @@ const Footer = () => {
             </p>
             <p className="flex items-center gap-2">
               <PhoneIncoming /> +91 6350498559
-            </p>
-            <p className="flex items-center gap-2">
-              <MessageCircleHeart /> +91 6350498559
             </p>
           </div>
 

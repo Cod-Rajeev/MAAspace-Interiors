@@ -1,6 +1,8 @@
 import React from 'react'
 
 import aboutimg from "../AboutUs/aboutimg.jpg";
+import main from "../AboutUs/main.jpg"
+
 
 const AboutUs = () => {
   return (
@@ -20,7 +22,7 @@ const AboutUs = () => {
             <div className="flex flex-row gap-10 items-start">
               {/* Timeline */}
               <div className="flex flex-col">
-                <h1 className="text-sm md:text-2xl font-bold">2000</h1>
+                <h1 className="text-sm md:text-2xl font-bold">2017</h1>
                 <div className="w-px h-20 bg-white"></div>
                 <h1 className="text-sm md:text-2xl poppins-semibold">2025</h1>
               </div>
@@ -41,8 +43,8 @@ const AboutUs = () => {
             </div>
 
             <p class="">
-              Since the year 2000, MAAspace Interiors has been transforming
-              spaces into soulful experiences. Over the past 25 years, we've
+              Since the year 2017, MAAspace Interiors has been transforming
+              spaces into soulful experiences. Over the past 08 years, we've
               grown from a small design studio into a trusted name in
               residential and commercial interior design. With a deep commitment
               to quality, creativity, and client satisfaction, our work blends
@@ -57,7 +59,7 @@ const AboutUs = () => {
               trust, innovation, and timeless aesthetics. We don't just design
               spaces — we craft experiences that last.
             </p>
-            <h1 className=" text-2xl sm:text-3xl mt-8 font-script kaushan-script-regular">
+            <h1 className="text-white poppins-semibold text-4xl text-center p-10">
               MAAspace Interiors
             </h1>
           </section>
@@ -66,7 +68,7 @@ const AboutUs = () => {
 
           <section class="md:w-1/2 object-cover bg-gray-900 rounded-lg p-5 shadow-lg transform ">
             <img
-              src={aboutimg}
+              src={main}
               alt="Minimalist modern living room interior..."
               class="w-full h-64 sm:h-80 md:h-[600px] object-cover rounded-lg select-none transition-transform duration-300 ease-in-out hover:scale-105"
               loading="lazy"
@@ -78,7 +80,7 @@ const AboutUs = () => {
 
       {/* Clint numbers */}
 
-      <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 bg-slate-100 md:text-justify text-gray-800">
+      <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 bg-slate-100  text-gray-800">
         <div class="flex flex-col md:flex-row md:items-start gap-10 px-20 py-14">
           {/* <!-- Text content --> */}
           <section class="md:w-1/2 text-base sm:text-lg leading-relaxed">
@@ -99,25 +101,6 @@ const AboutUs = () => {
               minimalism, royal Rajasthani elegance, or a fusion of styles,
               we'll work closely with you to bring your vision to life.
             </p>
-
-            {/* <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-5xl text-amber-700 font-bold">
-                500<sup>+</sup>
-              </h1>
-              <p className="text-gray-400">Projects Completed</p>
-            </div>
-            <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-5xl text-amber-700 font-bold">
-                500<sup>+</sup>
-              </h1>
-              <p className="text-gray-400">Creative Experts</p>
-            </div>
-            <div class="inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-5xl text-amber-700 font-bold">
-                10K<sup>+</sup>
-              </h1>
-              <p className="text-gray-400">Happy Clients More than</p>
-            </div> */}
           </section>
 
           {/* <!-- Image content --> */}

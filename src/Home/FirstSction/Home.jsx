@@ -7,6 +7,7 @@ import aboutimg from "../FirstSction/aboutimg.jpg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import WhyChoose from '../WhyChoose/WhyChoose';
 
 const Home = () => {
 
@@ -140,7 +141,7 @@ const Home = () => {
                 <img
                   src={Hero}
                   alt="Modern living room interior"
-                  className="w-full h-screen object-cover"
+                  className="w-full h-auto md:h-screen object-cover"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src =
@@ -160,7 +161,7 @@ const Home = () => {
                     and innovation, crafted with precision and passion, creating
                     spaces rich in beauty, comfort, and timeless functionality.
                   </p>
-                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold pt-16 px-4 sm:px-10 md:px-20 lg:px-72 text-center kaushan-script-regular text-amber-600">
+                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold pt-16 px-4 sm:px-10 md:px-20 lg:px-72 text-center  text-amber-600">
                     MAAspace Interiors
                   </h1>
                 </div>
@@ -259,14 +260,12 @@ const Home = () => {
               <p className="text-gray-900 poppins-medium">Projects Completed</p>
             </div>
             <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-3xl text-amber-700 font-bold">
-                80<sup>+</sup>
-              </h1>
-              <p className="text-gray-900 poppins-medium">Creative Experts</p>
+              <h1 className="text-3xl text-amber-700 font-bold">2017</h1>
+              <p className="text-gray-900 poppins-medium">Serving Since</p>
             </div>
             <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
               <h1 className="text-3xl text-amber-700 font-bold">
-                7K<sup>+</sup>
+                2000<sup>+</sup>
               </h1>
               <p className="text-gray-900 poppins-medium">Happy Clients</p>
             </div>
@@ -284,6 +283,8 @@ const Home = () => {
           </section>
         </div>
       </div>
+
+      <WhyChoose/>
     </>
   );
 }

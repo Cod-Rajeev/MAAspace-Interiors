@@ -1,9 +1,9 @@
 import React from "react";
-import Blog1 from "../Blogs/blog1.avif"
+import Blog1 from "../Blogs/blog1.jpg"
 
 const Blog = () => {
   return (
-    <main className="mx-auto items-center px-12 py-12">
+    <main className="mx-auto items-center px-12 py-2">
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="lg:w-3/4 mx-auto">
           <div className="bg-white rounded-xl shadow-md overflow-hidden mb-12">

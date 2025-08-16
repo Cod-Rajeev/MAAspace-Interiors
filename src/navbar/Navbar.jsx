@@ -18,7 +18,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 border-b border-gray-300 bg-gray-100 text-black">
+    <nav className="fixed  w-full z-50 border-b border-gray-300 bg-gray-100 text-black">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-24 items-center">
           {/* Logo */}
@@ -52,70 +52,6 @@ const Navbar = () => {
               >
                 Services
               </Link>
-
-              {/* Dropdown Menu */}
-              {/* <ul className="absolute opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 delay-150 ease-in-out grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 bg-white mt-2 py-2 px-2 rounded shadow-lg z-50 min-w-max"
-                  onMouseEnter={(e) => e.currentTarget.classList.add("opacity-100", "visible")}
-                  onMouseLeave={(e) => e.currentTarget.classList.remove("opacity-100", "visible")}
-              >
-                <div className="font-normal  p-5">
-                            <h6
-                              className="text-amber-700  mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                              Home Interior
-                            </h6>
-                            <div className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200 hover:text-amber-500"
-                              >2BHK</Link>
-                            </div>
-                            <p className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200  hover:text-amber-500"
-                              >3BHK</Link>
-                            </p>
-                            <p className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200  hover:text-amber-500"
-                              >4BHK</Link>
-                            </p>
-                            <p>
-                              <Link className="text-neutral-600 dark:text-neutral-200  hover:text-amber-500"
-                              >5BHK</Link>
-                            </p>
-                            
-                          </div>
-
-
-                            <div className=" p-5 font-normal">
-                            <h6
-                              className="text-amber-700  mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                              Modular
-                            </h6>
-                            <div className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200 hover:text-amber-500"
-                              >Kitchen</Link>
-                            </div>
-                            <p className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200  hover:text-amber-500"
-                              >Wardrobe</Link>
-                            </p>
-                            <p className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200  hover:text-amber-500"
-                              >Storage</Link>
-                            </p>
-                            
-                          </div>
-
-
-                           <div className=" p-5 font-normal">
-                            <h6
-                              className="text-amber-700 mb-4 flex justify-center font-semibold uppercase md:justify-start">
-                              Luxury Interior
-                            </h6>
-                            <div className="mb-4">
-                              <Link className="text-neutral-600 dark:text-neutral-200 hover:text-amber-500"
-                              >Luxury</Link>
-                            </div>            
-                          </div>
-                          
-              </ul> */}
             </li>
 
             {/* <a href="#" className="hover:text-yellow-200 transition">Designs</a> */}

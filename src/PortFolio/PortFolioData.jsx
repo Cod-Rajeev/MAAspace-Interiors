@@ -1,30 +1,21 @@
 
 import React from "react";
 import gallery1 from '../PortFolio/images/gallery1.jpg'
-import gallery2 from "../PortFolio/images/gallery2.jpg";
 import gallery3 from "../PortFolio/images/gallery3.jpg";
 import gallery4 from "../PortFolio/images/gallery4.jpg";
-import gallery5 from "../PortFolio/images/gallery5.jpg";
 import gallery6 from "../PortFolio/images/gallery6.jpg";
 import gallery7 from "../PortFolio/images/gallery7.jpg";
-import gallery8 from "../PortFolio/images/gallery8.jpg";
 import gallery9 from "../PortFolio/images/gallery9.jpg";
 import gallery10 from "../PortFolio/images/gallery10.jpg";
-import gallery11 from "../PortFolio/images/gallery11.jpg";
 import gallery12 from "../PortFolio/images/gallery12.jpg";
 import gallery13 from "../PortFolio/images/gallery13.jpg";
-import gallery14 from "../PortFolio/images/gallery14.jpg";
 import gallery15 from "../PortFolio/images/gallery15.jpg";
-import gallery16 from "../PortFolio/images/gallery16.jpg";
 
-import galleryvideo1 from "../PortFolio/images/galleryvideo1.mp4";
-import galleryvideo2 from "../PortFolio/images/galleryvideo2.mp4";
+import galleryvideo1 from "../PortFolio/images/galleryvideo1.mp4"
 import galleryvideo3 from "../PortFolio/images/galleryvideo3.mp4";
-import galleryvideo5 from "../PortFolio/images/galleryvideo5.mp4";
 import galleryvideo6 from "../PortFolio/images/galleryvideo6.mp4";
 import galleryvideo7 from "../PortFolio/images/galleryvideo7.mp4";
 import galleryvideo9 from "../PortFolio/images/galleryvideo9.mp4";
-import galleryvideo10 from "../PortFolio/images/galleryvideo10.mp4";
 
 
 
@@ -87,7 +78,6 @@ const interiorDesignData = [
   },
   {
     id: 8,
-    // image: gallery8,
     video: galleryvideo6,
     title: "Wall Design",
     description:
@@ -109,7 +99,6 @@ const interiorDesignData = [
   },
   {
     id: 11,
-    // image: gallery11,
     video: galleryvideo7,
     title: "Stair Case",
     description:
@@ -131,7 +120,6 @@ const interiorDesignData = [
   },
   {
     id: 14,
-    // image: gallery14,
     video: galleryvideo9,
     title: "Behind the Scenes:",
     description:

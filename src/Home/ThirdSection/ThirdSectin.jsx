@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from "react-router-dom"
 
-import FirstImg from "../ThirdSection/box1.avif"
-import SecondImg from "../ThirdSection/box2.avif"   
-import ThirdImg from "../ThirdSection/box3.avif"
+import FirstImg from "../ThirdSection/box1.jpg"
+import SecondImg from "../ThirdSection/box2.jpg"   
+import ThirdImg from "../ThirdSection/box3.jpg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -36,14 +36,6 @@ const ThirdSectin = () => {
       }
     ]
   };
-
-
-
-    // const user = {
-    //     // firstimg: {FirstImg},
-    //     // // secondimg:{SecondImg},
-    //     // // thirdimg: {ThirdImg }
-    // }
 
   return (
     <div className="bg-neutral-700 min-h-auto flex flex-col items-center px-4 py-12">

@@ -1,6 +1,5 @@
 import React from 'react'
 
-import firstsectionmainimg from "../Services/firstsectionimainimg.avif";
 import seconsectionmaniimg from "../Services/seconsectionmaniimg.jpeg";
 import threebhkimg from "../Services/threebhkimg.png";
 
@@ -43,7 +42,7 @@ const Services = () => {
             <p className="text-gray-700 poppins-bold">
               ...we’ll work closely with you to bring your vision to life.
             </p>
-            <h1 className="text-amber-800 text-2xl sm:text-3xl mt-8 font-script kaushan-script-regular">
+            <h1 className="text-black poppins-semibold text-4xl text-center p-10">
               MAAspace Interiors
             </h1>
           </div>
@@ -94,7 +93,7 @@ const Services = () => {
                 {/* <!-- Image content --> */}
                 <section class=" md:w-2/3 lg:h-[760px] rounded-lg overflow-hidden shadow-lg transform hover:scale-[1.04]">
                   <img
-                    src="https://cdn.pixabay.com/photo/2021/12/25/13/11/living-room-6893089_1280.jpg"
+                    src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Minimalist modern living room interior with a large grey sofa, two wooden rounded coffee tables, neutral cushions and printed artwork on light grey walls, styled with green plants and soft natural light"
                     class="md:w-full object-cover rounded-lg select-none transition-transform duration-300 ease-in-out hover:scale-110"
                     loading="lazy"
@@ -132,7 +131,7 @@ const Services = () => {
                         ex pariatur.
                       </p>
 
-                      <h1 className="text-amber-800 text-4xl mt-5 text-center justify-center kaushan-script-regular">
+                      <h1 className="text-black poppins-semibold text-4xl text-center p-10">
                         MAAspace Interiors
                       </h1>
                     </div>
@@ -178,7 +177,7 @@ const Services = () => {
                         your vision to life.
                       </p>
 
-                      <h1 className="text-amber-800 text-4xl text-center  kaushan-script-regular">
+                      <h1 className="text-black poppins-semibold text-4xl text-center">
                         MAAspace Interiors
                       </h1>
                     </div>
@@ -188,7 +187,7 @@ const Services = () => {
                 {/* <!-- Image content --> */}
                 <section class="md:w-1/2 h-[700px] bg-black rounded-lg overflow-hidden shadow-lg transform hover:scale-[1.04]">
                   <img
-                    src={firstsectionmainimg}
+                    src="https://plus.unsplash.com/premium_photo-1675615667682-eb53c1b7d92e?q=80&w=406&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="Minimalist modern living room interior with a large grey sofa"
                     class="h-full md:w-full object-cover rounded-lg select-none transition-transform duration-300 ease-in-out hover:scale-110"
                     loading="lazy"

@@ -3,7 +3,7 @@ import React from "react";
 const FiveSection = () => {
 
     const user = {
-        vidiourl: "src/Home/FiveSection/ImgVideo/fiveVideoYouTub.mp4"
+        videourl: "src/Home/FiveSection/ImgVideo/fiveVideoYouTub.mp4"
     }
 
 
@@ -31,7 +31,7 @@ const FiveSection = () => {
             muted
             src="https://videos.pexels.com/video-files/3773486/3773486-hd_1920_1080_30fps.mp4"
             preload="metadata"
-            className="w-full h-auto rounded-lg"
+            className="w-full h-64 rounded-lg"
           />
           <div className="absolute inset-0 pointer-events-none"></div>
         </div>
@@ -45,11 +45,10 @@ const FiveSection = () => {
             timeless beauty. MAAspace Interiors turned this vision into reality
             with meticulous planning and artistic precision.
             <br /> <br />
-             The transformation
-            began with a serene pooja room, designed as a peaceful sanctuary
-            that radiates spiritual calm. The rest of the home was adorned with
-            stylish interiors, premium finishes, and thoughtful layouts that
-            bring together aesthetics and functionality. 
+            The transformation began with a serene pooja room, designed as a
+            peaceful sanctuary that radiates spiritual calm. The rest of the
+            home was adorned with stylish interiors, premium finishes, and
+            thoughtful layouts that bring together aesthetics and functionality.
           </blockquote>
           <p className="font-semibold text-gray-900 text-base md:text-lg">
             Sharma’s Family
