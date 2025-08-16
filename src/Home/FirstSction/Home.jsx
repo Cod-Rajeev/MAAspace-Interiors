@@ -148,7 +148,7 @@ const Home = () => {
                       "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98b84167-474c-438b-8b97-d88ac48851fa.png";
                   }}
                 />
-                <div className="absolute bottom-0 pt-20 md:pt-12 text-white bg-black/70 w-full h-full flex flex-col justify-center">
+                <div className="absolute bottom-0  pt-2 md:pt-12 text-white bg-black/70 w-full h-full flex flex-col justify-center">
                   <h1 className="text-lg sm:text-2xl md:text-5xl font-bold px-4 sm:px-10 md:px-20 lg:px-72 text-center delius-regular">
                     Blending Tradition and Modernity in Every Home
                   </h1>
@@ -161,7 +161,7 @@ const Home = () => {
                     and innovation, crafted with precision and passion, creating
                     spaces rich in beauty, comfort, and timeless functionality.
                   </p>
-                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold pt-16 px-4 sm:px-10 md:px-20 lg:px-72 text-center  text-amber-600">
+                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold pt-2 md:pt-16 px-4 sm:px-10 md:px-20 lg:px-72 text-center  text-amber-600">
                     MAAspace Interiors
                   </h1>
                 </div>
