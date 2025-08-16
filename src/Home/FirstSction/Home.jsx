@@ -230,21 +230,21 @@ const Home = () => {
 
       {/* ************************ */}
 
-      <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-gray-600 text-gray-50">
-        <div class="flex flex-col md:flex-row md:items-start gap-10 px-20 py-8">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-gray-600 text-gray-50">
+        <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10 px-4 sm:px-8 md:px-20 py-8">
           {/* <!-- Text content --> */}
-          <section class="md:w-1/2 text-base sm:text-lg leading-relaxed">
-            <h2 class=" text-gray-100 font-bold text-lg sm:text-xl md:text-4xl mb-2">
+          <section className="md:w-1/2 text-base sm:text-lg leading-relaxed">
+            <h2 className="text-gray-100 font-bold text-lg sm:text-xl md:text-4xl mb-2">
               Designing Homes, Defining Lifestyles
             </h2>
-            <p class="py-5 poppins-regular ">
+            <p className="py-5 poppins-regular  text-justify">
               At MAAspace, we believe your home is more than just walls and
               furniture — it’s a reflection of your dreams, emotions, and way of
               life. Since 2010, our mission has been to transform ordinary
               spaces into extraordinary experiences, blending beauty, comfort,
               and functionality in perfect harmony.
             </p>
-            <p class="pb-5 poppins-regular ">
+            <p className="pb-5 poppins-regular  text-justify">
               Our team of passionate designers brings together artistic vision
               and technical expertise to create interiors that are not only
               visually stunning but also practical for everyday living. From
@@ -253,38 +253,53 @@ const Home = () => {
               precision.
             </p>
 
-            <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-3xl text-amber-700 font-bold">
-                500<sup>+</sup>
-              </h1>
-              <p className="text-gray-900 poppins-medium">Projects Completed</p>
-            </div>
-            <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-3xl text-amber-700 font-bold">2017</h1>
-              <p className="text-gray-900 poppins-medium">Serving Since</p>
-            </div>
-            <div class="mx-2 inline-block w-40 rounded-xl overflow-hidden bg-white px-6 py-3 hover:bg-orange-100 transition text-center">
-              <h1 className="text-3xl text-amber-700 font-bold">
-                2000<sup>+</sup>
-              </h1>
-              <p className="text-gray-900 poppins-medium">Happy Clients</p>
+            {/* Stats */}
+            <div className="flex flex-wrap gap-4">
+              <div className="flex-1 min-w-[120px] rounded-xl overflow-hidden bg-white px-4 py-3 hover:bg-orange-100 transition text-center">
+                <h1 className="text-2xl sm:text-3xl text-amber-700 font-bold">
+                  500<sup>+</sup>
+                </h1>
+                <p className="text-gray-900 poppins-medium text-sm sm:text-base">
+                  Projects Completed
+                </p>
+              </div>
+              <div className="flex-1 min-w-[120px] rounded-xl overflow-hidden bg-white px-4 py-3 hover:bg-orange-100 transition text-center">
+                <h1 className="text-2xl sm:text-3xl text-amber-700 font-bold">
+                  2017
+                </h1>
+                <p className="text-gray-900 poppins-medium text-sm sm:text-base">
+                  Serving Since
+                </p>
+              </div>
+              <div className="flex-1 min-w-[120px] rounded-xl overflow-hidden bg-white px-4 py-3 hover:bg-orange-100 transition text-center">
+                <h1 className="text-2xl sm:text-3xl text-amber-700 font-bold">
+                  2000<sup>+</sup>
+                </h1>
+                <p className="text-gray-900 poppins-medium text-sm sm:text-base">
+                  Happy Clients
+                </p>
+              </div>
             </div>
           </section>
 
           {/* <!-- Image content --> */}
-          <section class="md:w-1/2 h-[550px] bg-gray-300 rounded-lg p-6 shadow-lg transform hover:-skew-y-6">
+          <section className="md:w-1/2 w-full bg-gray-300 rounded-lg p-4 shadow-lg transform md:hover:-skew-y-3">
             <img
               src={aboutimg}
-              alt="Minimalist modern living room interior with a large grey sofa, two wooden rounded coffee tables, neutral cushions and printed artwork on light grey walls, styled with green plants and soft natural light"
-              class="w-full h-full object-cover rounded-lg select-none "
+              alt="Modern interior design living room"
+              className="w-full h-auto max-h-[500px] object-cover rounded-lg select-none"
               loading="lazy"
-              onerror="this.onerror=null; this.src='https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d7121465-90a9-48ab-b21e-3b5db9457b01.png';"
+              onError={(e) => {
+                e.target.onerror = null;
+                e.target.src =
+                  "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d7121465-90a9-48ab-b21e-3b5db9457b01.png";
+              }}
             />
           </section>
         </div>
       </div>
 
-      <WhyChoose/>
+      <WhyChoose />
     </>
   );
 }
