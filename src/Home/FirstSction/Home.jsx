@@ -171,7 +171,7 @@ const Home = () => {
                     onClick={handleClick}
                     className=" hover:bg-gray-700 poppins-medium outline outline-1 px-6  rounded-lg absolute bottom-4 md:bottom-16 h-8 text-center items-center md:h-16 text-xs md:text-lg  left-1/2 transform -translate-x-1/2 shadow-lg"
                   >
-                    Consultation Booking
+                    Get Free Consultation
                   </button>
                 </div>
               </div>
@@ -179,58 +179,57 @@ const Home = () => {
           </div>
         </section>
       </div>
-      
 
       {/* *************************** */}
 
-      <div className="w-full bg-gray-300 p-10">
-        <div className="px-0 md:px-20">
-          <div className="min-h-20 justify-center text-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
-            <div className="m-4 hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700  rounded-2xl shadow-md overflow-hidden max-w-80 transition transform hover:scale-105">
-              <h1 className=" p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-24 h-24">
-                <HousePlug size={55} />
+      <div className="w-full bg-gray-300 p-6 sm:p-10">
+        <div className="px-2 sm:px-10 md:px-20">
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            {/* Card 1 */}
+            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+              <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
+                <HousePlug className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
-              <div className="">
-                <h3 className="text-xl px-8 py-2 mt-4 poppins-bold">
+              <div className="text-center">
+                <h3 className="text-base sm:text-xl mt-4 font-semibold">
                   Your Space, Your Style
                 </h3>
-                <p className="poppins-medium p-3">
+                <p className="text-sm sm:text-base mt-2">
                   Interiors thoughtfully crafted to reflect your unique
-                  personality, seamlessly combining timeless elegance with
-                  practical everyday functionality for a truly personalized
-                  living space.
+                  personality, blending timeless elegance with practical
+                  functionality.
                 </p>
               </div>
             </div>
 
-            <div className="m-4 hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700  rounded-2xl shadow-md overflow-hidden max-w-80 transition transform hover:scale-105">
-              <h1 className=" p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-24 h-24">
-                <PackageOpen size={55} />
+            {/* Card 2 */}
+            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+              <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
+                <PackageOpen className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
-              <div className="">
-                <h3 className="text-xl px-8 py-2 mt-4 poppins-bold">
+              <div className="text-center">
+                <h3 className="text-base sm:text-xl mt-4 font-semibold">
                   30% More Living Space
                 </h3>
-                <p className="poppins-medium p-3">
-                  Innovative home interior designs that maximize every inch,
-                  blending smart space-saving solutions with style, comfort, and
-                  modern functionality.
+                <p className="text-sm sm:text-base mt-2">
+                  Innovative designs maximize every inch, blending smart
+                  space-saving solutions with comfort and modern style.
                 </p>
               </div>
             </div>
 
-            <div className="m-4 hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700  rounded-2xl shadow-md overflow-hidden max-w-80 transition transform hover:scale-105">
-              <h1 className=" p-5 bg-amber-700 rounded-full w-24 h-24">
-                <BedDouble size={55} />
+            {/* Card 3 */}
+            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105 col-span-2 md:col-span-1">
+              <h1 className="flex items-center justify-center p-3 sm:p-5 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
+                <BedDouble className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
-              <div className="">
-                <h3 className="text-xl px-8 py-2 mt-4 poppins-bold">
+              <div className="text-center">
+                <h3 className="text-base sm:text-xl mt-4 font-semibold">
                   Quality You Can See and Feel
                 </h3>
-                <p className="poppins-medium p-3">
-                  Experience interiors crafted from premium materials,
-                  delivering exceptional durability, timeless beauty, and
-                  unmatched elegance in every single detail of your home.
+                <p className="text-sm sm:text-base mt-2">
+                  Interiors crafted from premium materials, offering durability,
+                  timeless beauty, and unmatched elegance.
                 </p>
               </div>
             </div>
