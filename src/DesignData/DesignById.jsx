@@ -14,17 +14,25 @@ const DesignById = () => {
   }
 
   return (
-    <div className="pb-6 max-w-6xl flex flex-col mx-auto justify-center">
-      <div className="overflow-hidden rounded-lg p-2 ">
-        <img
-          src={design.image}
-          alt={design.title}
-          className="w-full h-[500px] object-cover rounded-lg shadow-lg"
-        />
-      </div>
+    <div className="bg-neutral-200 pb-5">
+      <div className=" max-w-6xl flex flex-col mx-auto justify-center bg-white">
+        <div className="overflow-hidden items-center flex flex-col ">
+          <img
+            src={design.image}
+            alt={design.title}
+            className="w-full h-[400px] object-cover shadow-lg"
+          />
+        </div>
 
-      <h1 className="text-3xl font-bold text-amber-700 mb-2">{design.title}</h1>
-      <p className="text-gray-700 text-lg">{design.description}</p>
+        <div className="flex flex-col mx-auto justify-center text-center py-6 px-8">
+          <h1 className="text-3xl font-bold text-amber-700 mb-2 ">
+            {design.title}
+          </h1>
+          <p className="text-gray-900 poppins-regular text-lg px-28">
+            {design.description}
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
