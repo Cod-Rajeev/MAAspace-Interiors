@@ -14,12 +14,12 @@ const DesignById = () => {
   }
 
   return (
-    <div className="p-6 max-w-3xl mx-auto">
-      <div className="relative w-full aspect-video overflow-hidden rounded-lg ">
+    <div className="pb-6 max-w-6xl flex flex-col mx-auto justify-center">
+      <div className="overflow-hidden rounded-lg p-2 ">
         <img
           src={design.image}
           alt={design.title}
-          className="w-full h-full rounded-lg shadow-lg pb-4"
+          className="w-full h-[500px] object-cover rounded-lg shadow-lg"
         />
       </div>
 

@@ -28,7 +28,7 @@ const PortFolio = () => {
                   <video
                     src={item.video}
                     controls
-                    autoPlay
+                    // autoPlay
                     muted
                     loop
                     className="w-full h-60 object-cover"

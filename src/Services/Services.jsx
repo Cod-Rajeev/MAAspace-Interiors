@@ -160,7 +160,7 @@ const Services = () => {
                       <p class="mb-10 text-amber-800 poppins-semibold md:text-1xl text-2xl poppins-regular flex flex-col gap-4">
                         <span>Smart Home Layout Design -</span>
                         <span>Br Concept-Driven Designs -</span>
-                        <span>Transforming 2BHK Spaces -</span>
+                        <span>Transforming 5BHK Spaces -</span>
                       </p>
                       <p class="mb-5 poppins-regular ">
                         We believe that every 5BHK apartment has the potential
@@ -177,7 +177,7 @@ const Services = () => {
                         your vision to life.
                       </p>
 
-                      <h1 className="text-black poppins-semibold text-4xl text-center">
+                      <h1 className="text-black poppins-semibold text-4xl text-center p-5">
                         MAAspace Interiors
                       </h1>
                     </div>

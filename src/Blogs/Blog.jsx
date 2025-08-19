@@ -5,12 +5,12 @@ const Blog = () => {
   return (
     <main className="mx-auto items-center px-12 py-2">
       <div className="flex flex-col lg:flex-row gap-8">
-        <div className="lg:w-3/4 mx-auto">
+        <div className="lg:w-5/6 mx-auto">
           <div className="bg-white rounded-xl shadow-md overflow-hidden mb-12">
             <img
               src={Blog1}
               alt="Modern Home Interior Design"
-              className="w-full h-auto object-cover"
+              className="w-full h-[500px] object-cover"
               loading="lazy"
               onError={(e) => {
                 e.target.onerror = null;
@@ -19,7 +19,7 @@ const Blog = () => {
               }}
             />
 
-            <div className="p-6">
+            <div className="p-4">
               <div className="flex items-center space-x-2 mb-3">
                 <span className="text-gray-500 text-sm">August 2, 2025</span>
               </div>
