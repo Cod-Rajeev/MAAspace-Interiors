@@ -47,7 +47,7 @@ const interiorDesignData = [
     description:
       "An office work area is designed to boost focus, comfort, and productivity. With ergonomic furniture, smart layouts, and clutter-free organization, the space balances professionalism with style. Natural lighting, modern storage, and minimal décor create an environment that inspires efficiency and creativity every day.",
   },
- 
+
   {
     id: 5,
     image: gallery17,
@@ -72,9 +72,9 @@ const interiorDesignData = [
   {
     id: 8,
     image: gallery18,
-    title: "Wall Design",
+    title: "Dressing Design",
     description:
-      "Wall design transforms plain surfaces into expressive visual statements, using textured paints, 3D panels, wallpapers, wooden cladding, or murals. Modern trends feature geometric patterns, metallic accents, and minimalist tones to elevate interiors. Accent walls, vertical gardens, or LED-lit panels create dynamic focal points, enhancing both the mood and style of a space.",
+      "Dressing design focuses on creating stylish, functional, and organized spaces for clothing and accessories. Modern dressing rooms include modular wardrobes, sliding doors, mirrors, and smart lighting. Customized storage solutions, elegant finishes, and ergonomic layouts enhance convenience while adding luxury and sophistication to interiors.",
   },
   {
     id: 11,
@@ -93,7 +93,7 @@ const interiorDesignData = [
   {
     id: 13,
     image: gallery13,
-    title: "Kides Room",
+    title: "Kids Room",
     description:
       "Kids room design combines creativity, comfort, and functionality to inspire imagination and joy. Vibrant colors, playful wall art, and themed décor create a lively atmosphere, while smart storage keeps toys and books organized. Safe, child-friendly furniture ensures comfort, making the space perfect for learning, play, and restful sleep.",
   },

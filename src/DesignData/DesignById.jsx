@@ -15,20 +15,22 @@ const DesignById = () => {
 
   return (
     <div className="bg-neutral-200 pb-5">
-      <div className=" max-w-6xl flex flex-col mx-auto justify-center bg-white">
-        <div className="overflow-hidden items-center flex flex-col ">
+      <div className="max-w-6xl flex flex-col mx-auto justify-center bg-white">
+        {/* 🖼 Image Section */}
+        <div className="overflow-hidden items-center flex flex-col">
           <img
             src={design.image}
             alt={design.title}
-            className="w-full h-[400px] object-cover shadow-lg"
+            className="w-full h-[300px] sm:h-[400px] object-cover shadow-lg"
           />
         </div>
 
-        <div className="flex flex-col mx-auto justify-center text-center py-6 px-8">
-          <h1 className="text-3xl font-bold text-amber-700 mb-2 ">
+        {/* 📝 Text Section */}
+        <div className="flex flex-col mx-auto justify-center text-center py-6 px-4 sm:px-8 lg:px-28">
+          <h1 className="text-2xl sm:text-3xl font-bold text-amber-700 mb-2">
             {design.title}
           </h1>
-          <p className="text-gray-900 poppins-regular text-lg px-28">
+          <p className="text-gray-900 poppins-regular text-base sm:text-lg">
             {design.description}
           </p>
         </div>

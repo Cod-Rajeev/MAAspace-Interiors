@@ -8,9 +8,16 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
 import WhyChoose from '../WhyChoose/WhyChoose';
+import { useNavigate } from 'react-router-dom';
+
 
 const Home = () => {
+  const navigate = useNavigate();
 
+  const handleClick = () => {
+    navigate("/ConsultationBooking"); 
+
+  };
   //  var settings = {
   //   dots: true,
   //   infinite: true,
@@ -133,7 +140,7 @@ const Home = () => {
         </section>
       </div> */}
 
-      <div className="bg-white min-h-auto flex flex-col items-center relative overflow-hidden">
+      <div className="bg-white min-h-auto h-full flex flex-col items-center relative overflow-hidden">
         <section className="w-full">
           <div>
             <article className="transform-gpu duration-300 flex flex-col">
@@ -141,35 +148,38 @@ const Home = () => {
                 <img
                   src={Hero}
                   alt="Modern living room interior"
-                  className="w-full h-auto md:h-screen object-cover"
+                  className="w-full h-auto md:h-[610px] object-cover"
                   onError={(e) => {
                     e.target.onerror = null;
                     e.target.src =
                       "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98b84167-474c-438b-8b97-d88ac48851fa.png";
                   }}
                 />
-                <div className="absolute bottom-0 pt-2 md:pt-12 text-white bg-black/70 w-full h-full flex flex-col justify-center">
-                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold px-4 sm:px-10 md:px-20 lg:px-72 text-center delius-regular">
+                <div className="absolute bottom-0 pt-2 md:pt-12 text-white bg-black/50 h-full flex flex-col justify-center">
+                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold px-4 sm:px-10 md:px-20 lg:px-72 text-center">
                     Blending Tradition and Modernity in Every Home
                   </h1>
                   <p className="text-xs sm:text-base md:text-2xl text-center px-6 md:px-20 lg:px-36 pt-4 md:pt-7">
-                    <b className="text-amber-500">MAAspace</b> led by founder
-                    <b className="text-amber-500"> B. L. Sharma,</b> has been
-                    transforming homes <b>since 2000</b> — beautifully honoring
-                    cultural roots while embracing the sophistication of modern
-                    elegance. Every project is a harmonious blend of tradition
-                    and innovation, crafted with precision and passion, creating
-                    spaces rich in beauty, comfort, and timeless functionality.
+                    MAAspace has been transforming homes since 2017 — honoring
+                    cultural roots while embracing modern elegance. Each project
+                    blends tradition with innovation, creating spaces full of
+                    beauty, comfort, and timeless functionality.
                   </p>
-                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold pt-2 md:pt-16 px-4 sm:px-10 md:px-20 lg:px-72 text-center  text-amber-600">
-                    MAAspace Interiors
-                  </h1>
+
+                  {/* Fixed button */}
+                  <button
+                    onClick={handleClick}
+                    className=" hover:bg-gray-700 poppins-medium outline outline-1 px-6  rounded-lg absolute bottom-4 md:bottom-16 h-8 text-center items-center md:h-16 text-xs md:text-lg  left-1/2 transform -translate-x-1/2 shadow-lg"
+                  >
+                    Consultation Booking
+                  </button>
                 </div>
               </div>
             </article>
           </div>
         </section>
       </div>
+      
 
       {/* *************************** */}
 
@@ -240,7 +250,7 @@ const Home = () => {
             <p className="py-5 poppins-regular  text-justify">
               At MAAspace, we believe your home is more than just walls and
               furniture — it’s a reflection of your dreams, emotions, and way of
-              life. Since 2010, our mission has been to transform ordinary
+              life. Since 2017, our mission has been to transform ordinary
               spaces into extraordinary experiences, blending beauty, comfort,
               and functionality in perfect harmony.
             </p>
@@ -257,7 +267,7 @@ const Home = () => {
             <div className="flex flex-wrap gap-4">
               <div className="flex-1 min-w-[120px] rounded-xl overflow-hidden bg-white px-4 py-3 hover:bg-orange-100 transition text-center">
                 <h1 className="text-2xl sm:text-3xl text-amber-700 font-bold">
-                  500<sup>+</sup>
+                  200<sup>+</sup>
                 </h1>
                 <p className="text-gray-900 poppins-medium text-sm sm:text-base">
                   Projects Completed

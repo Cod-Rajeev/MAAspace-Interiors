@@ -31,9 +31,9 @@ const interiorDesignData = [
   {
     id: 3,
     image: design3,
-    title: "Luxury Corridor",
-    description:
-      "A luxury corridor is more than a walkway — it defines the home’s mood with elegance and style. Premium flooring, wood panels, and ambient lighting create warmth and sophistication. Wide hallways with chandeliers or recessed lights invite comfort. Décor like art, mirrors, and consoles add character, while subtle walls enhance luxury. Smart storage and lighting sensors combine function and beauty, transforming a simple passage into an interior masterpiece.",
+     title: "Commercial Interior",
+  description:
+    "Commercial interior design focuses on creating functional yet visually appealing spaces for offices, retail stores, restaurants, and showrooms. It blends modern layouts, ergonomic furniture, efficient lighting, and branded décor to enhance productivity and customer experience. From open workspaces to luxury lobbies, every design balances style and practicality, leaving a lasting impression.",
   },
   {
     id: 4,
