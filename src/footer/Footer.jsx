@@ -78,7 +78,7 @@ const Footer = () => {
         </div>
         <div>
           {/* Social Links */}
-          <div className=" text-base space-y-4">
+          <div className=" text-base space-y-4 pl-0 md:pl-10">
             <h6 className="uppercase text-lg font-bold justify-start">
               Social Links
             </h6>
