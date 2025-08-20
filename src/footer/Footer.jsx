@@ -34,7 +34,7 @@ const Footer = () => {
           </h6>
           <Link
             to="/services"
-            rel="noopener noreferrer"
+            onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500 justify-start text-start gap-3 flex flex-row"
           >
             Services
@@ -42,14 +42,14 @@ const Footer = () => {
 
           <Link
             to="/designs"
-            rel="noopener noreferrer"
+            onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500  gap-3 flex flex-row"
           >
             Designs
           </Link>
           <Link
             to="/ConsultationBooking"
-            rel="noopener noreferrer"
+            onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500 gap-3 flex flex-row"
           >
             Consultation
