@@ -80,7 +80,10 @@ import welcome3 from "./images/welcome3.jpg";
 import welcome4 from "./images/welcome4.jpg";
 import welcome5 from "./images/welcome5.jpg";
 
-
+// Showroom Design
+import showroom1 from "./images/showroom1.jpg";
+import showroom2 from "./images/showroom2.jpg";
+import showroom3 from "./images/showroom3.jpg";
 
 
 
@@ -157,9 +160,9 @@ const interiorDesignData = [
       kitchen6,
       kitchen7,
     ],
-    title: "Kitchen",
+    title: "Moduler Kitchen",
     description:
-      "Modern kitchens blend efficiency and style with sleek cabinets, modular layouts, storage, warm lighting, premium finishes, and elegant design.",
+      "Modern Moduler kitchens blend efficiency and style with sleek cabinets, modular layouts, storage, warm lighting, premium finishes, and elegant design.",
   },
   {
     id: 9,
@@ -175,13 +178,13 @@ const interiorDesignData = [
     description:
       "Guest welcome blends elegance and comfort with décor, lighting, thoughtful details, arrangements, creating memorable, inviting, and lasting experiences.",
   },
-  // {
-  //   id: 11,
-  //   // image: [gallery13,],
-  //   title: "Kids Room",
-  //   description:
-  //     "Kids room design combines creativity, comfort, and functionality to inspire imagination and joy. Vibrant colors, playful wall art, and themed décor create a lively atmosphere, while smart storage keeps toys and books organized. Safe, child-friendly furniture ensures comfort, making the space perfect for learning, play, and restful sleep.",
-  // },
+  {
+    id: 11,
+    image: [showroom1, showroom2, showroom3],
+    title: "Showroom Design",
+    description:
+      "Showroom design focuses on elegance and functionality to create a lasting impression. With strategic lighting, premium display.",
+  },
 
   // {
   //   id: 12,

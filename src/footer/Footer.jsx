@@ -3,10 +3,9 @@ import {
   MapPin,
   MailPlus,
   PhoneIncoming,
-  MessageCircleHeart,
-  Instagram,
-  Facebook,
   MessageCirclePlus,
+  Facebook,
+  Instagram,
 } from "lucide-react";
 import { Link } from 'react-router-dom';
 
@@ -48,20 +47,21 @@ const Footer = () => {
             Designs
           </Link>
           <Link
+            to="/gallery"
+            onClick={() => window.scrollTo(0, 0)}
+            className="hover:text-amber-500  gap-3 flex flex-row"
+          >
+            Gallery
+          </Link>
+          <Link
             to="/ConsultationBooking"
             onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500 gap-3 flex flex-row"
           >
             Consultation
           </Link>
-          {/* <Link
-            to="/designs"
-            rel="noopener noreferrer"
-            className="hover:text-amber-500  gap-3 flex flex-row"
-          >
-            Gallery
-          </Link>
-          <Link
+
+          {/*<Link
             to="/ConsultationBooking"
             rel="noopener noreferrer"
             className="hover:text-amber-500 gap-3 flex flex-row"
