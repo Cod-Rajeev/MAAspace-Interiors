@@ -1,6 +1,7 @@
 import React from "react";
 import PopupForm from "../PopupForm";
 import PortFolioData from "../PortFolio/PortFolioData";
+// import gallerySlider from "./gallerySlider";
 
 const PortFolio = () => {
   const data = PortFolioData;
@@ -56,6 +57,8 @@ const PortFolio = () => {
 
         <PopupForm />
       </div>
+
+      {/* <gallerySlider /> */}
     </>
   );
 };

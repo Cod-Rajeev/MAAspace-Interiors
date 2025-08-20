@@ -140,42 +140,39 @@ const Home = () => {
         </section>
       </div> */}
 
-      <div className="bg-white min-h-auto h-full flex flex-col items-center relative overflow-hidden">
-        <section className="w-full">
-          <div>
-            <article className="transform-gpu duration-300 flex flex-col">
-              <div className="relative overflow-hidden">
-                <img
-                  src={Hero}
-                  alt="Modern living room interior"
-                  className="w-full h-auto md:h-[610px] object-cover"
-                  onError={(e) => {
-                    e.target.onerror = null;
-                    e.target.src =
-                      "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98b84167-474c-438b-8b97-d88ac48851fa.png";
-                  }}
-                />
-                <div className="absolute bottom-0 pt-2 md:pt-12 text-white bg-black/50 h-full flex flex-col justify-center">
-                  <h1 className="text-lg sm:text-2xl md:text-5xl font-bold px-4 sm:px-10 md:px-20 lg:px-72 text-center">
-                    Blending Tradition and Modernity in Every Home
-                  </h1>
-                  <p className="text-xs sm:text-base md:text-2xl text-center px-6 md:px-20 lg:px-36 pt-4 md:pt-7">
-                    MAAspace has been transforming homes since 2017 — honoring
-                    cultural roots while embracing modern elegance. Each project
-                    blends tradition with innovation, creating spaces full of
-                    beauty, comfort, and timeless functionality.
-                  </p>
+      <div className="bg-white poppins-regular relative w-full h-screen flex flex-col items-center justify-center text-center ">
+        <section className="w-full h-full relative">
+          {/* Background Image */}
+          <img
+            src={Hero}
+            alt="Modern living room interior"
+            className="w-full h-full object-cover"
+            onError={(e) => {
+              e.target.onerror = null;
+              e.target.src =
+                "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/98b84167-474c-438b-8b97-d88ac48851fa.png";
+            }}
+          />
 
-                  {/* Fixed button */}
-                  <button
-                    onClick={handleClick}
-                    className=" hover:bg-gray-700 poppins-medium outline outline-1 px-6  rounded-lg absolute bottom-4 md:bottom-16 h-8 text-center items-center md:h-16 text-xs md:text-lg  left-1/2 transform -translate-x-1/2 shadow-lg"
-                  >
-                    Get Free Consultation
-                  </button>
-                </div>
-              </div>
-            </article>
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
+            <h1 className="text-3xl sm:text-3xl md:text-5xl poppins-bold font-bold text-white">
+              Blending Tradition and Modernity in Every Home
+            </h1>
+            <p className="text-base sm:text-base md:text-2xl poppins-regular text-white mt-4 md:mt-6 max-w-4xl">
+              MAAspace has been transforming homes since 2017 — honoring
+              cultural roots while embracing modern elegance. Each project
+              blends tradition with innovation, creating spaces full of beauty,
+              comfort, and timeless functionality.
+            </p>
+
+            {/* Button */}
+            <button
+              onClick={handleClick}
+              className="mt-6 md:mt-10 bg-amber-700 hover:bg-amber-600 text-white poppins-medium px-6 py-2 md:px-10 md:py-4 rounded-lg shadow-lg text-xs sm:text-sm md:text-lg"
+            >
+              Get Free Consultation
+            </button>
           </div>
         </section>
       </div>
@@ -184,9 +181,9 @@ const Home = () => {
 
       <div className="w-full bg-gray-300 p-6 sm:p-10">
         <div className="px-2 sm:px-10 md:px-20">
-          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Card 1 */}
-            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+            <div className=" text-black flex flex-col items-center p-4 bg-orange-50 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <HousePlug className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
@@ -203,7 +200,7 @@ const Home = () => {
             </div>
 
             {/* Card 2 */}
-            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+            <div className=" text-black flex flex-col items-center p-4 bg-orange-50 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <PackageOpen className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
@@ -219,7 +216,7 @@ const Home = () => {
             </div>
 
             {/* Card 3 */}
-            <div className="hover:text-gray-100 text-black flex flex-col items-center p-4 bg-orange-50 hover:bg-slate-700 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105 col-span-2 md:col-span-1">
+            <div className=" text-black flex flex-col items-center p-4 bg-orange-50 rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <BedDouble className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
@@ -239,11 +236,11 @@ const Home = () => {
 
       {/* ************************ */}
 
-      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-gray-600 text-gray-50">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-[#f2e9d0] text-gray-900">
         <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10 px-4 sm:px-8 md:px-20 py-8">
           {/* <!-- Text content --> */}
           <section className="md:w-1/2 text-base sm:text-lg leading-relaxed">
-            <h2 className="text-gray-100 font-bold text-lg sm:text-xl md:text-4xl mb-2">
+            <h2 className="text-gray-800 font-bold text-lg sm:text-xl md:text-4xl mb-2">
               Designing Homes, Defining Lifestyles
             </h2>
             <p className="py-5 poppins-regular  text-justify">

@@ -17,7 +17,7 @@ function App() {
     <>
       <Navbar />
 
-      <div className="pt-[100px]">
+      <div className="pt-[95px]">
         <Routes>
           <Route path="/" element={<AllLink />} />
           <Route path="/services" element={<Services />} />
