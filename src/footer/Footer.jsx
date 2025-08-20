@@ -13,10 +13,10 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-800 text-center text-white w-full h-full">
-      <div className="grid grid-cols-1 md:grid-cols-4 mx-auto items-center p-10 gap-5 md:gap-0">
-        <div className="flex flex-col justify-center item-center   ">
-          <h6 className="text-2xl pb-2 flex justify-center">
+    <footer className="bg-neutral-800 poppins-regular text-start text-white w-full h-full">
+      <div className="grid grid-cols-1 md:grid-cols-4 mx-auto items-start p-10 gap-5 md:gap-0">
+        <div className="flex flex-col justify-start items-start  ">
+          <h6 className="text-2xl pb-2 flex justify-start font-bold">
             MAAspace Interiors
           </h6>
           <p className="text-sm leading-relaxed text-justify">
@@ -27,67 +27,15 @@ const Footer = () => {
             personality and creates a truly memorable experience.
           </p>
         </div>
-        <div>
-          {/* Social Links */}
-          <div className="font-semibold text-base space-y-4">
-            <h6 className="uppercase text-lg">Social Links</h6>
-            <a
-              href="https://www.instagram.com/maaspaceinteriors?igsh=MTl5czltcWRwbGtnbA%3D%3D&utm_source=qr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-500 justify-center items-center gap-3 flex flex-row"
-            >
-              <Instagram />
-              Instagram
-            </a>
-
-            <a
-              href="https://www.facebook.com/share/1Zzxucd8jf/?mibextid=wwXIfr"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-500 justify-center items-center gap-3 flex flex-row"
-            >
-              <Facebook />
-              Facebook
-            </a>
-            <a
-              href="http://wa.me/916350498559"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-amber-500 justify-center items-center gap-3 flex flex-row"
-            >
-              <MessageCirclePlus />
-              Whatsapp
-            </a>
-            {/* <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
-              <Twitter />
-              Twitter
-            </Link> */}
-          </div>
-        </div>
-        {/* Contact Info */}
-        <div className="space-y-4 flex flex-col justify-center font-semibold text-base">
-          <h6 className="uppercase flex justify-center md:justify-start text-lg">
-            Contact
-          </h6>
-          <p className="flex justify-center md:justify-start items-center gap-2">
-            <MapPin /> New Delhi, Delhi 10012, India
-          </p>
-          <p className="flex justify-center md:justify-start items-center gap-2">
-            <MailPlus /> maainteriors01@gmail.com
-          </p>
-          <p className="flex justify-center md:justify-start items-center gap-2">
-            <PhoneIncoming /> +91 6350498559
-          </p>
-        </div>
-
         {/* Links  */}
-        <div className="font-semibold text-base space-y-4 text-start justify-start pl-16">
-          <h6 className="uppercase text-lg">Links</h6>
+        <div className=" text-base space-y-4 text-start justify-start pl-0 md:pl-28">
+          <h6 className="uppercase font-bold text-lg justify-start">
+            Quick Links
+          </h6>
           <Link
             to="/services"
             rel="noopener noreferrer"
-            className="hover:text-amber-500  gap-3 flex flex-row"
+            className="hover:text-amber-500 justify-start text-start gap-3 flex flex-row"
           >
             Services
           </Link>
@@ -104,7 +52,7 @@ const Footer = () => {
             rel="noopener noreferrer"
             className="hover:text-amber-500 gap-3 flex flex-row"
           >
-            Consultation Booking
+            Consultation
           </Link>
           {/* <Link
             to="/designs"
@@ -127,6 +75,61 @@ const Footer = () => {
           >
             About Us
           </Link> */}
+        </div>
+        <div>
+          {/* Social Links */}
+          <div className=" text-base space-y-4">
+            <h6 className="uppercase text-lg font-bold justify-start">
+              Social Links
+            </h6>
+            <a
+              href="https://www.instagram.com/maaspaceinteriors?igsh=MTl5czltcWRwbGtnbA%3D%3D&utm_source=qr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500  gap-3 flex flex-row"
+            >
+              <Instagram />
+              Instagram
+            </a>
+
+            <a
+              href="https://www.facebook.com/share/1Zzxucd8jf/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500  gap-3 flex flex-row"
+            >
+              <Facebook />
+              Facebook
+            </a>
+            <a
+              href="http://wa.me/916350498559"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-amber-500 gap-3 flex flex-row"
+            >
+              <MessageCirclePlus />
+              Whatsapp
+            </a>
+            {/* <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
+              <Twitter />
+              Twitter
+            </Link> */}
+          </div>
+        </div>
+        {/* Contact Info */}
+        <div className="space-y-4 flex flex-col justify-center text-base">
+          <h6 className="uppercase flex justify-start font-bold  text-lg">
+            Contact
+          </h6>
+          <p className="flex  gap-2">
+            <MapPin /> New Delhi, Delhi 10012, India
+          </p>
+          <p className="flex  gap-2">
+            <MailPlus /> maainteriors01@gmail.com
+          </p>
+          <p className="flex gap-2">
+            <PhoneIncoming /> +91 6350498559
+          </p>
         </div>
 
         {/* Map */}
