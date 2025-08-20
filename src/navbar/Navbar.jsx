@@ -94,7 +94,7 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <Link to={"/portfolio"} className="hover:text-amber-700 transition">
+            <Link to={"/gallery"} className="hover:text-amber-700 transition">
               Gallery
             </Link>
             <Link to={"/blog"} className="hover:text-amber-700 transition">
@@ -220,7 +220,7 @@ const Navbar = () => {
           </li>
 
           <Link
-            to={"/portfolio"}
+            to={"/gallery"}
             onClick={() => setIsExpanded(false)}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >

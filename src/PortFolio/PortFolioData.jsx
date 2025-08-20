@@ -1,21 +1,84 @@
-
 import React from "react";
-import gallery1 from '../PortFolio/images/gallery1.jpg'
-import gallery3 from "../PortFolio/images/gallery3.jpg";
-import gallery4 from "../PortFolio/images/gallery4.jpg";
-import gallery6 from "../PortFolio/images/gallery6.jpg";
-import gallery7 from "../PortFolio/images/gallery7.jpg";
-import gallery9 from "../PortFolio/images/gallery9.jpg";
-import gallery10 from "../PortFolio/images/gallery10.jpg";
-import gallery12 from "../PortFolio/images/gallery12.jpg";
-import gallery13 from "../PortFolio/images/gallery13.jpg";
-import gallery15 from "../PortFolio/images/gallery15.jpg";
-import gallery16 from "../PortFolio/images/gallery16.jpg";
-import gallery17 from "../PortFolio/images/gallery17.jpg";
-import gallery18 from "../PortFolio/images/gallery18.jpg";
-import gallery19 from "../PortFolio/images/gallery19.jpg";
-import gallery20 from "../PortFolio/images/gallery20.jpg";
 
+// Pooja 
+import pooja1 from "./images/pooja1.jpg"
+import pooja2 from "./images/pooja2.jpg"
+import pooja3 from "./images/pooja3.jpg"
+import pooja4 from "./images/pooja4.jpg";
+import pooja5 from "./images/pooja5.jpg";
+import pooja6 from "./images/pooja6.jpg";
+import pooja7 from "./images/pooja7.jpg";
+
+
+// Modern Home Design
+import homedesign1 from "./images/homedesign1.jpg";
+import homedesign2 from "./images/homedesign2.jpg";
+import homedesign3 from "./images/homedesign3.jpg";
+import homedesign4 from "./images/homedesign4.jpg";
+import homedesign5 from "./images/homedesign5.jpg";
+
+
+
+
+// Office
+import office1 from "./images/office1.jpg";
+import office2 from "./images/office2.jpg";
+import office3 from "./images/office3.jpg";
+import office4 from "./images/office4.jpg";
+
+// Dining
+import dining1 from "./images/dining1.jpg";
+import dining2 from "./images/dining2.jpg";
+
+// Wardrobe1
+import wardrobe1 from "./images/wardrobe1.jpg";
+import wardrobe2 from "./images/wardrobe2.jpg";
+import wardrobe3 from "./images/wardrobe3.jpg";
+import wardrobe4 from "./images/wardrobe4.jpg";
+import wardrobe5 from "./images/wardrobe5.jpg";
+
+
+// Double Bed Room
+import room1 from "./images/room1.jpg";
+import room2 from "./images/room2.jpg";
+import room3 from "./images/room3.jpg";
+import room4 from "./images/room4.jpg";
+import room5 from "./images/room5.jpg";
+
+
+// Dressing
+import dressing1 from "./images/dressing1.jpg";
+import dressing2 from "./images/dressing2.jpg";
+import dressing3 from "./images/dressing3.jpg";
+import dressing4 from "./images/dressing4.jpg";
+import dressing5 from "./images/dressing5.jpg";
+import dressing6 from "./images/dressing6.jpg";
+import dressing7 from "./images/dressing7.jpg";
+
+
+
+// Kitchen 
+import kitchen1 from "./images/kitchen1.jpg"
+import kitchen2 from "./images/kitchen2.jpg";
+import kitchen3 from "./images/kitchen3.jpg";
+import kitchen4 from "./images/kitchen4.jpg";
+import kitchen5 from "./images/kitchen5.jpg";
+import kitchen6 from "./images/kitchen6.jpg";
+import kitchen7 from "./images/kitchen7.jpg";
+
+
+// Guest Room
+import guestroom1 from "./images/guestroom1.jpg";
+import guestroom2 from "./images/guestroom2.jpg";
+import guestroom3 from "./images/guestroom3.jpg";
+
+
+// Guest Welcome 
+import welcome1 from "./images/welcome1.jpg";
+import welcome2 from "./images/welcome2.jpg";
+import welcome3 from "./images/welcome3.jpg";
+import welcome4 from "./images/welcome4.jpg";
+import welcome5 from "./images/welcome5.jpg";
 
 
 
@@ -27,89 +90,105 @@ import gallery20 from "../PortFolio/images/gallery20.jpg";
 const interiorDesignData = [
   {
     id: 1,
-    image: gallery1,
-    title: "Modern Pooja Room",
-    alt: "Modern living room interior",
+    image: [pooja1, pooja2, pooja3, pooja4, pooja5, pooja6, pooja7],
+    title: "Pooja Room",
+    alt: "Pooja Room",
     description:
-      "Modern pooja room designs blend tradition with contemporary style, using clean lines, soft lighting, and minimal décor to create a peaceful space. Marble backdrops, wooden panels, and brass accents add elegance, while glass partitions and compact wall-mounted units keep the area functional, organized, and aesthetically pleasing for daily prayers.",
+      "Pooja room blends tradition and style with marble, wood, brass, soft lighting, creating peaceful, organized, and elegant prayer spaces.",
   },
   {
     id: 2,
-    image: gallery16,
-    title: " Modern Home Design",
+    image: [homedesign1, homedesign2, homedesign3, homedesign4, homedesign5],
+    title: "Modern Home Design",
     description:
-      "Modern home design focuses on simplicity, functionality, and elegance, featuring clean lines, open layouts, and minimal décor. Large windows welcome natural light, while neutral tones with bold accents enhance style. Materials like glass, steel, and concrete create a sleek look, complemented by smart technology and sustainable design for modern living.",
+      "Modern home emphasizes simplicity, open layouts, natural light, neutral tones, bold accents, glass, steel, smart, and sustainable design.",
   },
   {
     id: 3,
-    image: gallery3,
+    image: [office1, office2, office3, office4],
     title: "Office Work Area",
     description:
-      "An office work area is designed to boost focus, comfort, and productivity. With ergonomic furniture, smart layouts, and clutter-free organization, the space balances professionalism with style. Natural lighting, modern storage, and minimal décor create an environment that inspires efficiency and creativity every day.",
+      "Office workspaces enhance focus with ergonomic furniture, natural light, modern storage, clutter-free design, balancing productivity, style, and creativity.",
   },
-
   {
-    id: 5,
-    image: gallery17,
+    id: 4,
+    image: [dining1, dining2],
     title: "Dining Area",
     description:
-      "Dining area design blends comfort with sophistication, creating a warm yet refined setting for meals, celebrations, and conversations. A luxurious table in wood, marble, or glass pairs beautifully with upholstered chairs that combine style and comfort. Statement lighting, soft wall tones, curated art, and thoughtful décor details enhance the ambiance, making the space inviting, stylish, and unforgettable.",
+      "Dining designs create warm, sophisticated spaces with statement lighting, stylish tables, upholstered chairs, curated décor, enhancing conversations and celebrations.",
+  },
+  {
+    id: 5,
+    image: [wardrobe1, wardrobe2, wardrobe3, wardrobe4, wardrobe5],
+    title: "Wardrobe",
+    description:
+      "Wardrobes combine function and elegance with sliding doors, modular storage, lighting, mirrors, and neutral finishes, enhancing bedrooms stylishly.",
   },
   {
     id: 6,
-    image: gallery6,
-    title: "Wardrobe",
+    image: [room1, room2, room3, room4, room5],
+    title: "Double Bed Room",
     description:
-      "Wardrobe design combines functionality with aesthetic appeal, offering smart storage while enhancing bedroom style. Modern wardrobes feature sleek sliding or hinged doors, built-in lighting, and modular compartments for clothes, accessories, and shoes. Using materials like wood, glass, or laminates, they suit various interiors. Mirrors, neutral tones, and minimalist details elevate their elegance.",
+      "Double bedrooms balance comfort and elegance, featuring spacious beds, neutral tones, coordinated furniture, soft lighting, storage, and personalized décor.",
   },
   {
     id: 7,
-    image: gallery7,
-    title: "Double Bed Room",
+    image: [
+      dressing1,
+      dressing2,
+      dressing3,
+      dressing4,
+      dressing5,
+      dressing6,
+      dressing7,
+    ],
+    title: "Dressing Design",
     description:
-      "Double bedroom designs blend comfort, space, and elegance, making them perfect for couples or shared living. A spacious double bed serves as the focal point, complemented by coordinated furniture like side tables and wardrobes. Neutral tones, textured accents, and soft lighting create a soothing atmosphere, while smart storage and personalized décor add charm.",
+      "Dressing spaces provide stylish, functional storage with wardrobes, mirrors, lighting, modular layouts, enhancing organization, luxury, and elegant interiors.",
   },
   {
     id: 8,
-    image: gallery18,
-    title: "Dressing Design",
-    description:
-      "Dressing design focuses on creating stylish, functional, and organized spaces for clothing and accessories. Modern dressing rooms include modular wardrobes, sliding doors, mirrors, and smart lighting. Customized storage solutions, elegant finishes, and ergonomic layouts enhance convenience while adding luxury and sophistication to interiors.",
-  },
-  {
-    id: 11,
-    image: gallery19,
+    image: [
+      kitchen1,
+      kitchen2,
+      kitchen3,
+      kitchen4,
+      kitchen5,
+      kitchen6,
+      kitchen7,
+    ],
     title: "Kitchen",
     description:
-      "Modern kitchen designs blend functionality with style, making them the heart of every home. Sleek cabinets, smart storage solutions, and high-quality materials like wood, marble, or steel create a perfect balance of elegance and efficiency. Open layouts with modular setups enhance convenience, while soft lighting and premium finishes add warmth and sophistication to the space.",
+      "Modern kitchens blend efficiency and style with sleek cabinets, modular layouts, storage, warm lighting, premium finishes, and elegant design.",
   },
   {
-    id: 12,
-    image: gallery12,
+    id: 9,
+    image: [guestroom1, guestroom2, guestroom3],
     title: "Guest Room",
     description:
-      "Guest room interiors blend comfort, elegance, and warmth to create a welcoming retreat. Soft color palettes, plush bedding, and functional furniture ensure relaxation, while thoughtful lighting and stylish décor add charm. Smart storage keeps the space organized, making guests feel at home in a luxurious yet inviting environment.",
+      "Guest rooms offer comfort with soft tones, cozy bedding, functional furniture, warm lighting, stylish décor, and welcoming, relaxing ambiance.",
   },
   {
-    id: 13,
-    image: gallery13,
-    title: "Kids Room",
-    description:
-      "Kids room design combines creativity, comfort, and functionality to inspire imagination and joy. Vibrant colors, playful wall art, and themed décor create a lively atmosphere, while smart storage keeps toys and books organized. Safe, child-friendly furniture ensures comfort, making the space perfect for learning, play, and restful sleep.",
-  },
-  {
-    id: 14,
-    image: gallery20,
+    id: 10,
+    image: [welcome1, welcome2, welcome3, welcome4, welcome5],
     title: "Guest Welcome",
     description:
-      "Creating a warm guest welcome is about blending comfort with elegance. From inviting décor and soothing lighting to carefully chosen details, every element makes guests feel at home. Thoughtful arrangements and a welcoming ambiance ensure lasting impressions and memorable experiences.",
+      "Guest welcome blends elegance and comfort with décor, lighting, thoughtful details, arrangements, creating memorable, inviting, and lasting experiences.",
   },
-  {
-    id: 15,
-    image: gallery15,
-    title: "The Minimal Mood",
-    description:
-      "Simplicity meets sophistication in The Minimal Mood, where clean lines, open spaces, and calming tones create clarity and peace. Every element is purposeful, with no clutter—only intentional design. Natural light, neutral colors, and sleek furniture define a serene, modern lifestyle, proving that “less is more” in timeless elegance.",
-  },
+  // {
+  //   id: 11,
+  //   // image: [gallery13,],
+  //   title: "Kids Room",
+  //   description:
+  //     "Kids room design combines creativity, comfort, and functionality to inspire imagination and joy. Vibrant colors, playful wall art, and themed décor create a lively atmosphere, while smart storage keeps toys and books organized. Safe, child-friendly furniture ensures comfort, making the space perfect for learning, play, and restful sleep.",
+  // },
+
+  // {
+  //   id: 12,
+  //   // image: [gallery15,],
+  //   title: "The Minimal Mood",
+  //   description:
+  //     "Simplicity meets sophistication in The Minimal Mood, where clean lines, open spaces, and calming tones create clarity and peace. Every element is purposeful, with no clutter—only intentional design. Natural light, neutral colors, and sleek furniture define a serene, modern lifestyle, proving that “less is more” in timeless elegance.",
+  // },
 ];
 export default interiorDesignData;

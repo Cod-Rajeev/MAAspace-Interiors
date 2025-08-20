@@ -35,10 +35,10 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section className="py-10 bg-gray-300">
+    <section className="py-10 bg-gray-600">
       <div className="container mx-auto px-4">
         <div className="text-center py-4">
-          <h2 className="text-3xl md:text-4xl poppins-bold text-primary mb-4">
+          <h2 className="text-3xl md:text-4xl text-gray-50 poppins-bold text-primary mb-4">
             Why Choose MAAspace ?
           </h2>
           <div className="w-24 h-1 bg-accent mx-auto"></div>
