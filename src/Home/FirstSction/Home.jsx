@@ -240,23 +240,22 @@ const Home = () => {
         <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10 px-4 sm:px-8 md:px-20 py-8">
           {/* <!-- Text content --> */}
           <section className="md:w-1/2 text-base sm:text-lg leading-relaxed">
-            <h2 className="text-gray-800 font-bold text-lg sm:text-xl md:text-4xl mb-2">
-              Turn Key Interior Projects
+            <h2 className="text-gray-800 font-bold text-2xl sm:text-2xl md:text-4xl mb-2">
+              Luxury Interiors Designed Around You
             </h2>
             <p className="py-5 poppins-regular  text-justify">
-              At MAAspace, we believe your home is more than just walls and
-              furniture — it’s a reflection of your dreams, emotions, and way of
-              life. Since 2017, our mission has been to transform ordinary
-              spaces into extraordinary experiences, blending beauty, comfort,
-              and functionality in perfect harmony.
+              At MaaSpace Interiors, we believe your home is more than just
+              walls and furniture — it’s a canvas of your dreams, lifestyle, and
+              emotions. Since 2017, we have been creating luxury interior design
+              and turnkey solutions in Udaipur, blending beauty, comfort, and
+              functionality in perfect harmony.
             </p>
             <p className="pb-5 poppins-regular  text-justify">
-              Our team of passionate designers brings together artistic vision
-              and technical expertise to create interiors that are not only
-              visually stunning but also practical for everyday living. From
-              cozy living rooms to elegant bedrooms, and from stylish kitchens
-              to serene balconies — we design each corner with love and
-              precision.
+              From modular kitchens to elegant bedrooms, stylish living rooms to
+              premium office interiors, every space we design reflects timeless
+              elegance and everyday practicality. With a team driven by passion
+              and precision, MaaSpace Interiors transforms ordinary spaces into
+              extraordinary living experiences.
             </p>
 
             {/* Stats */}

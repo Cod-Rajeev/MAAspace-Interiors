@@ -62,7 +62,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork1}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -78,7 +78,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork2}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -94,7 +94,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork3}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -118,7 +118,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork4}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -134,7 +134,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork5}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -150,7 +150,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork6}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -166,7 +166,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork7}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop
@@ -182,7 +182,7 @@ const ExploreOurWork = () => {
               <div className="transform hover:rounded-xl overflow-hidden rounded-t-lg">
                 <video
                   src={ourwork8}
-                  className="w-full h-40 md:h-80 object-cover"
+                  className="w-full h-96 md:h-80 object-cover"
                   autoPlay
                   muted
                   loop

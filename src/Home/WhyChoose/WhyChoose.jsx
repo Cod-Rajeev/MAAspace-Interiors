@@ -36,7 +36,7 @@ const WhyChoose = () => {
 
   return (
     <section className="py-10 bg-gray-600">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-4 ">
         <div className="text-center py-4">
           <h2 className="text-3xl md:text-4xl text-gray-50 poppins-bold text-primary mb-4">
             Why Choose MAAspace ?
@@ -48,12 +48,12 @@ const WhyChoose = () => {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gray-50 p-8 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-700 transition duration-300  hover:scale-105"
+              className="bg-gray-300 p-8 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-700 transition duration-300  hover:scale-105"
             >
               <h3 className="text-xl font-bold text-primary mb-4 poppins-bold">
                 {feature.title}
               </h3>
-              <p className="text-gray-800 poppins-medium">
+              <p className="text-gray-900 poppins-medium">
                 {feature.description}
               </p>
             </div>
