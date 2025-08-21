@@ -19,7 +19,7 @@ const SixSection = () => {
     };
    
   return (
-    <div className="bg-neutral-400 flex flex-col items-center pb-16">
+    <div className="bg-[#dbd9d5] flex flex-col items-center pb-16">
       <section className="max-w-7xl w-full text-center p-10 ">
         <h1 className="text-3xl md:text-5xl cormorant-garamond-bold uppercase">
           Testimonials
@@ -28,7 +28,7 @@ const SixSection = () => {
 
       <section className="max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  px-7 md:px-0">
         {/* <!-- Card 1 --> */}
-        <article className="hover:scale-[1.04] card bg-white rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
+        <article className="hover:scale-[1.04] card bg-[#f2e9d0] rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
           <div className="px-10 py-6  flex flex-col grow">
             <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description1}
@@ -41,7 +41,7 @@ const SixSection = () => {
         </article>
 
         {/* <!-- Card 2 --> */}
-        <article className="hover:scale-[1.04] card  rounded-2xl shadow-2xl   card bg-white transform-gpu duration-300 flex flex-col">
+        <article className="hover:scale-[1.04] card  rounded-2xl shadow-2xl   card bg-[#f2e9d0] transform-gpu duration-300 flex flex-col">
           <div className="px-10 py-6  flex flex-col grow">
             <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description2}
@@ -54,7 +54,7 @@ const SixSection = () => {
         </article>
 
         {/* <!-- Card 3 --> */}
-        <article className="hover:scale-[1.04] card bg-white   rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
+        <article className="hover:scale-[1.04] card bg-[#f2e9d0]  rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
           <div className="px-10 py-6  flex flex-col grow">
             <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description3}

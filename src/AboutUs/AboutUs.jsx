@@ -36,8 +36,8 @@ const AboutUs = () => {
                   <strong>Mobile:</strong> +91 6350498559
                 </p>
                 <p>
-                  <strong>Address:</strong> 123, Interior Street, New Delhi,
-                  India
+                  <strong>Address:</strong> 11 A shanti Niketan Link
+                  <p>Road Badgav Udaipur 313011 India</p>
                 </p>
               </div>
             </div>

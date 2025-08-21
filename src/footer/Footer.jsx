@@ -32,6 +32,13 @@ const Footer = () => {
             Quick Links
           </h6>
           <Link
+            to="/"
+            onClick={() => window.scrollTo(0, 0)}
+            className="hover:text-amber-500 justify-start text-start gap-3 flex flex-row"
+          >
+            Home
+          </Link>
+          <Link
             to="/services"
             onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500 justify-start text-start gap-3 flex flex-row"
@@ -103,7 +110,7 @@ const Footer = () => {
             Contact
           </h6>
           <p className="flex  gap-2">
-            <MapPin /> New Delhi, Delhi 10012, India
+            <MapPin /> 11 A shanti Niketan Link Road Badgav Udaipur 313011
           </p>
           <p className="flex  gap-2">
             <MailPlus /> info@maaspaceinteriors.com

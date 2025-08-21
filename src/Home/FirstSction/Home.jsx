@@ -3,12 +3,10 @@ import { PackageOpen, HousePlug, BedDouble } from "lucide-react";
 
 import Hero from "../FirstSction/Hero.jpg"
 import aboutimg from "../FirstSction/aboutimg.jpg";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from 'react-slick'
-import WhyChoose from '../WhyChoose/WhyChoose';
 import { useNavigate } from 'react-router-dom';
+import Slider from 'react-slick'
 
 
 const Home = () => {
@@ -303,8 +301,6 @@ const Home = () => {
           </section>
         </div>
       </div>
-
-      {/* <WhyChoose /> */}
     </>
   );
 }
