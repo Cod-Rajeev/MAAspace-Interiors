@@ -23,8 +23,12 @@ const Navbar = () => {
         <div className="flex justify-between h-24 items-center">
           {/* Logo */}
           <Link
-            onClick={() => setIsExpanded(false)}
+            // onClick={() => setIsExpanded(false)}
             to={"/"}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="flex items-center"
           >
             <img
@@ -41,13 +45,24 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 text-lg poppins-semibold ">
-            <Link to={"/"} className="hover:text-amber-700 transition">
+            <Link
+              to={"/"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
+              className="hover:text-amber-700 transition"
+            >
               Home
             </Link>
             {/* <Link to={'/services'} className="hover:text-yellow-200 transition">Services</Link> */}
             <li className="relative group list-none">
               <Link
                 to={"/Services"}
+                onClick={() => {
+                  setIsExpanded(false);
+                  window.scrollTo(0, 0);
+                }}
                 className="cursor-pointer hover:text-amber-700"
               >
                 Services
@@ -59,6 +74,10 @@ const Navbar = () => {
             <li className="relative group list-none">
               <Link
                 to={"/designs"}
+                onClick={() => {
+                  setIsExpanded(false);
+                  window.scrollTo(0, 0);
+                }}
                 className="cursor-pointer hover:text-amber-700"
               >
                 Designs
@@ -83,6 +102,7 @@ const Navbar = () => {
                       <div key={design.id}>
                         <Link
                           to={`/designs/${design.id}`}
+                          onClick={() => window.scrollTo(0, 0)}
                           className="text-black hover:text-amber-700 p-3"
                         >
                           {design.title}
@@ -94,20 +114,45 @@ const Navbar = () => {
               </ul>
             </li>
 
-            <Link to={"/gallery"} className="hover:text-amber-700 transition">
+            <Link
+              to={"/gallery"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
+              className="hover:text-amber-700 transition"
+            >
               Gallery
             </Link>
-            <Link to={"/blog"} className="hover:text-amber-700 transition">
+            <Link
+              to={"/blog"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
+              className="hover:text-amber-700 transition"
+            >
               Blog
             </Link>
             {/* <a href="#" className="hover:text-yellow-200 transition">
               Contact Us
             </a> */}
-            <Link to={"/AboutUs"} className="hover:text-amber-700 transition">
+            <Link
+              to={"/AboutUs"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
+              className="hover:text-amber-700 transition"
+            >
               About Us
             </Link>
             <Link
               to={"/ConsultationBooking"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
               className="hover:text-amber-700 transition"
             >
               Consultation Booking
@@ -167,14 +212,20 @@ const Navbar = () => {
         <div className="px-2 pt-2 pb-4 space-y-1 text-gray-700 text-base font-medium">
           <Link
             to={"/"}
-            onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             Home
           </Link>
           <Link
             to={"/services"}
-            onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             Services
@@ -183,6 +234,10 @@ const Navbar = () => {
           <li className="relative group list-none">
             <Link
               to={"/designs"}
+              onClick={() => {
+                setIsExpanded(false);
+                window.scrollTo(0, 0);
+              }}
               className="cursor-pointer hover:text-yellow-300 ml-3"
             >
               Designs
@@ -207,7 +262,10 @@ const Navbar = () => {
                     <div key={design.id}>
                       <Link
                         to={`/designs/${design.id}`}
-                        onClick={() => setIsExpanded(false)}
+                        onClick={() => {
+                          setIsExpanded(false);
+                          window.scrollTo(0, 0);
+                        }}
                         className="text-black hover:text-amber-500"
                       >
                         {design.title}
@@ -221,34 +279,42 @@ const Navbar = () => {
 
           <Link
             to={"/gallery"}
-            onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             Gallery
           </Link>
           <Link
             to={"/blog"}
-            onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             Blog
           </Link>
-          {/* <a
-            href="#"
-            className="block px-3 py-2 rounded hover:bg-gray-100 transition"
-          >
-            Contact Us
-          </a> */}
+
           <Link
             to={"/AboutUs"}
-            onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             About Us
           </Link>
           <Link
             to={"/ConsultationBooking"}
-            onClick={() => setIsExpanded(false)}
+            // onClick={() => setIsExpanded(false)}
+            onClick={() => {
+              setIsExpanded(false);
+              window.scrollTo(0, 0);
+            }}
             className="block px-3 py-2 rounded hover:bg-gray-100 transition"
           >
             Consultation Booking
