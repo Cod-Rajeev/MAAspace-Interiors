@@ -19,18 +19,18 @@ const SixSection = () => {
     };
    
   return (
-    <div class="bg-neutral-400 flex flex-col items-center pb-16">
-      <section class="max-w-7xl w-full text-center p-10 ">
-        <h1 class="text-3xl md:text-5xl cormorant-garamond-bold uppercase">
+    <div className="bg-neutral-400 flex flex-col items-center pb-16">
+      <section className="max-w-7xl w-full text-center p-10 ">
+        <h1 className="text-3xl md:text-5xl cormorant-garamond-bold uppercase">
           Testimonials
         </h1>
       </section>
 
-      <section class="max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  px-7 md:px-0">
+      <section className="max-w-5xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10  px-7 md:px-0">
         {/* <!-- Card 1 --> */}
-        <article class="hover:scale-[1.04] card bg-white rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
-          <div class="px-10 py-6  flex flex-col grow">
-            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+        <article className="hover:scale-[1.04] card bg-white rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
+          <div className="px-10 py-6  flex flex-col grow">
+            <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description1}
             </p>
           </div>
@@ -41,9 +41,9 @@ const SixSection = () => {
         </article>
 
         {/* <!-- Card 2 --> */}
-        <article class="hover:scale-[1.04] card  rounded-2xl shadow-2xl   card bg-white transform-gpu duration-300 flex flex-col">
-          <div class="px-10 py-6  flex flex-col grow">
-            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+        <article className="hover:scale-[1.04] card  rounded-2xl shadow-2xl   card bg-white transform-gpu duration-300 flex flex-col">
+          <div className="px-10 py-6  flex flex-col grow">
+            <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description2}
             </p>
           </div>
@@ -54,9 +54,9 @@ const SixSection = () => {
         </article>
 
         {/* <!-- Card 3 --> */}
-        <article class="hover:scale-[1.04] card bg-white   rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
-          <div class="px-10 py-6  flex flex-col grow">
-            <p class="text-neutral-900 poppins-regular text-base grow text-center">
+        <article className="hover:scale-[1.04] card bg-white   rounded-2xl shadow-2xl transform-gpu duration-300 flex flex-col">
+          <div className="px-10 py-6  flex flex-col grow">
+            <p className="text-neutral-900 poppins-regular text-base grow text-center">
               {user.description3}
             </p>
           </div>

@@ -155,7 +155,7 @@ const Home = () => {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
+          <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
             <h1 className="text-3xl sm:text-3xl md:text-5xl poppins-bold font-bold text-white">
               Blending Tradition and Modernity in Every Home
             </h1>
@@ -241,7 +241,7 @@ const Home = () => {
           {/* <!-- Text content --> */}
           <section className="md:w-1/2 text-base sm:text-lg leading-relaxed">
             <h2 className="text-gray-800 font-bold text-lg sm:text-xl md:text-4xl mb-2">
-              Designing Homes, Defining Lifestyles
+              Turn Key Interior Projects
             </h2>
             <p className="py-5 poppins-regular  text-justify">
               At MAAspace, we believe your home is more than just walls and

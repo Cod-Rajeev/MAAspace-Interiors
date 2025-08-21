@@ -9,7 +9,7 @@ const PopupForm = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowPopup(true);
-    }, 2000); // 2 सेकंड बाद popup दिखेगा
+    }, 5000); 
 
     return () => clearTimeout(timer);
   }, []);

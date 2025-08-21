@@ -60,21 +60,6 @@ const Footer = () => {
           >
             Consultation
           </Link>
-
-          {/*<Link
-            to="/ConsultationBooking"
-            rel="noopener noreferrer"
-            className="hover:text-amber-500 gap-3 flex flex-row"
-          >
-            Blog
-          </Link>
-          <Link
-            to="/ConsultationBooking"
-            rel="noopener noreferrer"
-            className="hover:text-amber-500 gap-3 flex flex-row"
-          >
-            About Us
-          </Link> */}
         </div>
         <div>
           {/* Social Links */}
@@ -110,10 +95,6 @@ const Footer = () => {
               <MessageCirclePlus />
               Whatsapp
             </a>
-            {/* <Link className="hover:text-amber-500 items-center gap-3 flex flex-row">
-              <Twitter />
-              Twitter
-            </Link> */}
           </div>
         </div>
         {/* Contact Info */}
@@ -125,26 +106,12 @@ const Footer = () => {
             <MapPin /> New Delhi, Delhi 10012, India
           </p>
           <p className="flex  gap-2">
-            <MailPlus /> maainteriors01@gmail.com
+            <MailPlus /> info@maaspaceinteriors.com
           </p>
           <p className="flex gap-2">
             <PhoneIncoming /> +91 6350498559
           </p>
         </div>
-
-        {/* Map */}
-        {/* <div className="h-48 w-full overflow-hidden rounded-lg shadow-lg">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1750.9406673038673!2d77.07901021426392!3d28.633318407270526!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03a2311569c1%3A0x3dc64f65fa91a12d!2sSABKA%20SABKUCH%20BUSINESS%20PRIVATE%20LTD%20(SS%20BUSINESS%20PVT%20LTD.)!5e0!3m2!1sen!2sin!4v1753901917400!5m2!1sen!2sin"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen=""
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Map showing location"
-          ></iframe>
-        </div> */}
       </div>
       {/* Copyright */}
       <div className="bg-neutral-900 text-center text-sm p-2">

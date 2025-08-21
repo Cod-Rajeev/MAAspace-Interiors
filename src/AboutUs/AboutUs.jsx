@@ -30,7 +30,7 @@ const AboutUs = () => {
               {/* Contact Info (right beside timeline) */}
               <div className="space-y-4 text-white text-sm md:text-base p-0">
                 <p>
-                  <strong>Email:</strong> maainteriors01@gmail.com
+                  <strong>Email:</strong> info@maaspaceinteriors.com
                 </p>
                 <p>
                   <strong>Mobile:</strong> +91 6350498559
