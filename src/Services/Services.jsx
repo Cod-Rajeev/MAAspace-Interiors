@@ -2,8 +2,15 @@ import React from 'react'
 
 import seconsectionmaniimg from "../Services/seconsectionmaniimg.jpeg";
 import threebhkimg from "../Services/threebhkimg.png";
+import { useNavigate } from 'react-router-dom';
 
 const Services = () => {
+
+   const navigate = useNavigate();
+
+   const handleClick = () => {
+     navigate("/ConsultationBooking");
+   };
   return (
     <>
       {/* section 1 */}
@@ -25,30 +32,41 @@ const Services = () => {
           </div>
 
           {/* 📝 Text Card */}
-          <div className="bg-white shadow-xl rounded-xl p-6 sm:p-8">
-            <strong className="text-3xl sm:text-4xl text-amber-900 uppercase block mb-4 cormorant-garamond-bold text-center">
+          <div className="bg-white shadow-xl rounded-xl p-6 sm:p-8 flex flex-col items-center">
+            <strong className="text-3xl sm:text-4xl text-amber-900 uppercase mb-4 cormorant-garamond-bold text-center">
               2-BHK Design
             </strong>
-            <p className="text-gray-700 mb-4 poppins-semibold">
+
+            <p className="text-gray-700 mb-4 poppins-semibold text-center">
               A 2BHK apartment offers just the right balance of space and
               comfort. With smart planning and thoughtful interiors, every
               corner can be designed to maximize functionality without
               compromising style.
             </p>
-            <p className="text-gray-700 mb-4 poppins-semibold">
+            <p className="text-gray-700 mb-4 poppins-semibold text-center">
               From elegant living rooms to cozy bedrooms and efficient kitchens,
               our designs transform compact spaces into luxurious experiences.
               Whether you love modern minimalism or vibrant traditional themes,
               we adapt the interiors to suit your lifestyle.
             </p>
-            <p className="text-gray-700 poppins-bold">
+            <p className="text-gray-700 poppins-bold text-center">
               Your 2BHK is more than just a house — it’s your personal haven,
               and we’ll work closely with you to bring your vision to life.
             </p>
 
-            <h1 className="text-black poppins-semibold text-xl md:text-4xl text-center p-2 md:p-10">
+            <h1 className="text-black poppins-semibold text-xl md:text-4xl text-center p-2 md:p-5">
               MAAspace Interiors
             </h1>
+
+            {/* Button Centered */}
+            <div className="flex justify-center w-full">
+              <button
+                onClick={handleClick}
+                className="bg-amber-700 hover:bg-amber-600 text-white poppins-medium px-6 py-2 md:px-10 md:py-4 rounded-lg shadow-lg text-xs sm:text-sm md:text-lg"
+              >
+                Get a Quote
+              </button>
+            </div>
           </div>
         </div>
       </section>
@@ -77,6 +95,15 @@ const Services = () => {
                 minimalism, our 3BHK interiors ensure that your home is not just
                 bigger, but smarter, stylish, and truly yours.
               </p>
+              {/* Button Centered */}
+              <div className="flex justify-center w-full">
+                <button
+                  onClick={handleClick}
+                  className="bg-amber-700 hover:bg-amber-600 text-white poppins-medium px-6 py-2 md:px-10 md:py-4 rounded-lg shadow-lg text-xs sm:text-sm md:text-lg"
+                >
+                  Get a Quote
+                </button>
+              </div>
             </div>
           </div>
         </div>
@@ -114,7 +141,7 @@ const Services = () => {
                     <div className="p-2">
                       {/* Concept Driven Designs */}
                       <p className="mb-2 text-amber-800 poppins-semibold text-2xl flex flex-col">
-                        Concept-Driven Designs 
+                        Concept-Driven Designs
                       </p>
                       <p className="mb-2 poppins-regular">
                         A 4BHK home allows you to explore bold concepts and
@@ -137,6 +164,15 @@ const Services = () => {
                       <h1 className="text-black poppins-semibold text-2xl md:text-4xl text-center p-4">
                         MAAspace Interiors
                       </h1>
+                      {/* Button Centered */}
+                      <div className="flex justify-center w-full">
+                        <button
+                          onClick={handleClick}
+                          className="bg-amber-700 hover:bg-amber-600 text-white poppins-medium px-6 py-2 md:px-10 md:py-4 rounded-lg shadow-lg text-xs sm:text-sm md:text-lg"
+                        >
+                          Get a Quote
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </section>
@@ -183,6 +219,15 @@ const Services = () => {
                       <h1 className="text-black poppins-semibold text-2xl md:text-4xl text-center p-0 md:p-5">
                         MAAspace Interiors
                       </h1>
+                      {/* Button Centered */}
+                      <div className="flex justify-center w-full">
+                        <button
+                          onClick={handleClick}
+                          className="bg-amber-700 hover:bg-amber-600 text-white poppins-medium px-6 py-2 md:px-10 md:py-4 rounded-lg shadow-lg text-xs sm:text-sm md:text-lg"
+                        >
+                          Get a Quote
+                        </button>
+                      </div>
                     </div>
                   </div>
                 </section>
