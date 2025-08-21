@@ -9,7 +9,7 @@ const Services = () => {
    const navigate = useNavigate();
 
    const handleClick = () => {
-     navigate("/ConsultationBooking");
+     navigate("/ConsultationBooking#contact");
    };
   return (
     <>

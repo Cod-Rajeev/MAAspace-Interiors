@@ -1,7 +1,10 @@
+import { useLocation } from 'react-router-dom';
 import Form from '../Form';
+import { useEffect } from 'react';
 
 
 const ConsultationBooking = () => {
+   const location = useLocation();
 
     const   title1 = "Consultation Booking",
             title2 = "Design Consultation",
@@ -15,6 +18,16 @@ const ConsultationBooking = () => {
             description2 = "Book a design consultation to explore innovative solutions tailored to your project requirements.",
             description3 = "Get expert insights and recommendations to enhance your design project and achieve requirements your goals.",
             description4 = "Receive personalized advice from our design professionals to elevate your  requirements to the next.";
+
+            
+   useEffect(() => {
+     if (location.hash) {
+       const section = document.querySelector(location.hash);
+       if (section) {
+         section.scrollIntoView({ behavior: "smooth" });
+       }
+     }
+   }, [location]);
 
   return (
     <>
