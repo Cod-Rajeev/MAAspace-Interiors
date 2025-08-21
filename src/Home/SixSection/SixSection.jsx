@@ -19,7 +19,7 @@ const SixSection = () => {
     };
    
   return (
-    <div className="bg-[#e7ddad] flex flex-col items-center pb-16">
+    <div className="bg-[#ede0d4] flex flex-col items-center pb-16">
       <section className="max-w-7xl w-full text-center p-10 ">
         <h1 className="text-3xl md:text-5xl cormorant-garamond-bold uppercase">
           Testimonials

@@ -15,7 +15,7 @@ const Footer = () => {
     <footer className="bg-neutral-800 poppins-regular text-start text-white w-full h-full">
       <div className="grid grid-cols-1 md:grid-cols-4 mx-auto items-start p-10 gap-5 md:gap-0">
         <div className="flex flex-col justify-start items-start  ">
-          <h6 className="text-2xl pb-2 flex justify-start font-bold">
+          <h6 className="text-2xl text-orange-500 pb-2 flex justify-start font-bold">
             MAAspace Interiors
           </h6>
           <p className="text-sm leading-relaxed text-justify">
@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
         {/* Links  */}
         <div className=" text-base space-y-4 text-start justify-start pl-0 md:pl-28">
-          <h6 className="uppercase font-bold text-lg justify-start">
+          <h6 className="uppercase text-orange-500 font-bold text-lg justify-start">
             Quick Links
           </h6>
           <Link
@@ -71,7 +71,7 @@ const Footer = () => {
         <div>
           {/* Social Links */}
           <div className=" text-base space-y-4 pl-0 md:pl-10">
-            <h6 className="uppercase text-lg font-bold justify-start">
+            <h6 className="uppercase text-orange-500 text-lg font-bold justify-start">
               Social Links
             </h6>
             <a
@@ -106,7 +106,7 @@ const Footer = () => {
         </div>
         {/* Contact Info */}
         <div className="space-y-4 flex flex-col justify-center text-base">
-          <h6 className="uppercase flex justify-start font-bold  text-lg">
+          <h6 className="uppercase text-orange-500 flex justify-start font-bold  text-lg">
             Contact
           </h6>
           <p className="flex  gap-2">

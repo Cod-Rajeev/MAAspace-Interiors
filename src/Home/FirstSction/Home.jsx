@@ -181,7 +181,7 @@ const Home = () => {
         <div className="px-2 sm:px-10 md:px-20">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             {/* Card 1 */}
-            <div className=" text-black flex flex-col items-center p-4 bg-[#ece5c0] rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+            <div className=" text-black flex flex-col items-center p-4 bg-[#ede0d4] rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <HousePlug className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
