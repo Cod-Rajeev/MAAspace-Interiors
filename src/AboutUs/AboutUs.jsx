@@ -10,9 +10,9 @@ const AboutUs = () => {
       {/* Owner Details */}
 
       <div class="max-w-full mx-auto px-10 bg-gray-700 md:text-justify text-white">
-        <div class="flex flex-col md:flex-row md:items-start gap-10 py-5 px-10 md:px-20">
+        <div class="flex flex-col md:flex-row md:items-start gap-1 md:gap-7 py-5 px-2 md:px-20">
           {/* <!-- Text content --> */}
-          <section class="md:w-1/2 leading-relaxed space-y-4">
+          <section class="md:w-1/2 w-full leading-relaxed space-y-4">
             <h2 class=" font-bold text-lg sm:text-xl md:text-5xl ">
               Meet Mr. B.L. Sharma{" "}
             </h2>
@@ -59,14 +59,14 @@ const AboutUs = () => {
               trust, innovation, and timeless aesthetics. We don't just design
               spaces — we craft experiences that last.
             </p>
-            <h1 className="text-white poppins-semibold text-4xl text-center p-10">
+            <h1 className="text-white poppins-medium md:poppins-semibold text-2xl md:text-4xl text-center p-0 md:p-3">
               MAAspace Interiors
             </h1>
           </section>
 
           {/* <!-- Image content --> */}
 
-          <section class="md:w-1/2 object-cover bg-gray-900 rounded-lg p-5 shadow-lg transform ">
+          <section class="md:w-1/2 object-cover bg-gray-900 rounded-lg p-2 mt-2 md:p-3 shadow-lg transform ">
             <img
               src={main}
               alt="Minimalist modern living room interior..."
@@ -81,13 +81,13 @@ const AboutUs = () => {
       {/* Clint numbers */}
 
       <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 bg-slate-100  text-gray-800">
-        <div class="flex flex-col md:flex-row md:items-start gap-10 px-20 py-14">
+        <div class="flex flex-col md:flex-row md:items-start gap-10 px-5 py-14">
           {/* <!-- Text content --> */}
-          <section class="md:w-1/2 text-base sm:text-lg leading-relaxed">
+          <section class="md:w-1/2 w-full text-base sm:text-lg leading-relaxed">
             <h2 class=" text-black font-bold text-lg sm:text-xl md:text-4xl mb-2">
               Why Choose Us for Your Any BHK Interior Design in Udaipur
             </h2>
-            <p class="mb-5">
+            <p class="mb-4 poppins-medium">
               As a leading interior design company in Udaipur, we specialize in
               creating stunning 2BHK interiors that combine aesthetics with
               functionality. Our team of experienced designers understands the
@@ -95,7 +95,7 @@ const AboutUs = () => {
               allowing us to create spaces that feel both modern and rooted in
               local tradition.
             </p>
-            <p class="mb-5">
+            <p class="poppins-medium">
               We believe that every 2BHK apartment has the potential to be
               transformed into a dream home. Whether you prefer contemporary
               minimalism, royal Rajasthani elegance, or a fusion of styles,
@@ -104,7 +104,7 @@ const AboutUs = () => {
           </section>
 
           {/* <!-- Image content --> */}
-          <section class="md:w-1/2 bg-gray-300 rounded-lg p-6 shadow-lg transform hover:-skew-y-6">
+          <section class="md:w-1/2 bg-gray-300 rounded-lg p-0 md:p-2 shadow-lg transform hover:-skew-y-2">
             <img
               src={aboutimg}
               alt="Minimalist modern living room interior with a large grey sofa, two wooden rounded coffee tables, neutral cushions and printed artwork on light grey walls, styled with green plants and soft natural light"
