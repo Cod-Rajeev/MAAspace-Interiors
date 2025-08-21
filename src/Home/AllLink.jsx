@@ -6,6 +6,7 @@ import FiveSection from './FiveSection/FiveSection'
 import SixSection from './SixSection/SixSection'
 import ForthSection from './ForthSection/ForthScrollSection'
 import WhyChoose from './WhyChoose/WhyChoose'
+import ExploreOurWork from '../PortFolio/ExploreOurWork'
 
 const AllLink = () => {
   return (
@@ -14,6 +15,7 @@ const AllLink = () => {
      <ThirdSectin/>
      {/* <ForthSection/> */}
      {/* <FiveSection/> */}
+     <ExploreOurWork/>
      <SixSection/>
 
 <WhyChoose/>

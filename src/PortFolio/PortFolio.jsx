@@ -1,6 +1,7 @@
 import React from "react";
 import PopupForm from "../PopupForm";
 import PortFolioData from "../PortFolio/PortFolioData";
+// import ExploreOurWork from "./ExploreOurWork";
 
 // Swiper import
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,7 +9,6 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import ExploreOurWork from "./ExploreOurWork";
 
 const PortFolio = () => {
   const data = PortFolioData;
@@ -102,7 +102,7 @@ const PortFolio = () => {
         `}
         </style>
       </div>
-      <ExploreOurWork />
+      {/* <ExploreOurWork /> */}
     </>
   );
 };
