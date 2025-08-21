@@ -44,7 +44,7 @@ const ExploreOurWork = () => {
   };
 
   return (
-    <div className="bg-[#ebe6c0] min-h-auto flex flex-col items-center px-4 pb-10 mb-4 py-4">
+    <div className="bg-white min-h-auto flex flex-col items-center px-4 pb-10 mb-4 py-4">
       <section className="max-w-7xl w-full text-center mb-1 ">
         <h1 className="text-3xl md:text-5xl cormorant-garamond-bold mb-1 text-neutral-900 select-none uppercase">
           Explore Our Work
