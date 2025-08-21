@@ -198,7 +198,7 @@ const Home = () => {
             </div>
 
             {/* Card 2 */}
-            <div className=" text-black flex flex-col items-center p-4 bg-[#ece5c0] rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+            <div className=" text-black flex flex-col items-center p-4 bg-[#ede0d4] rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 hover:bg-amber-600 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <PackageOpen className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
@@ -214,7 +214,7 @@ const Home = () => {
             </div>
 
             {/* Card 3 */}
-            <div className=" text-black flex flex-col items-center p-4 bg-[#ece5c0] rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
+            <div className=" text-black flex flex-col items-center p-4 bg-[#ede0d4]  rounded-2xl shadow-md overflow-hidden transition transform hover:scale-105">
               <h1 className="flex items-center justify-center p-3 sm:p-5 bg-amber-700 rounded-full w-16 h-16 sm:w-24 sm:h-24">
                 <BedDouble className="w-8 h-8 sm:w-12 sm:h-12" />
               </h1>
@@ -234,7 +234,7 @@ const Home = () => {
 
       {/* ************************ */}
 
-      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-[#ece5c0] text-gray-900">
+      <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-6 bg-[#ede0d4]  text-gray-900">
         <div className="flex flex-col md:flex-row md:items-start gap-6 md:gap-10 px-4 sm:px-8 md:px-20 py-8">
           {/* <!-- Text content --> */}
           <section className="md:w-1/2 text-base sm:text-lg leading-relaxed">
