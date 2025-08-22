@@ -11,14 +11,15 @@ import Designs from "./DesignData/Designs";
 import DesignById from "./DesignData/DesignById";
 import Blog from "./Blogs/Blog";
 import PortFolio from "./PortFolio/PortFolio";
-import WhatsAppIcon from "./whatsAppIcon";
+import Iconwhatsapp from "./Iconwhatsapp";
+
+
 
 
 function App() {
   return (
     <>
       <Navbar />
-
       <div className="pt-[95px]">
         <Routes>
           <Route path="/" element={<AllLink />} />
@@ -34,9 +35,9 @@ function App() {
             element={<ConsultationBooking />}
           />
         </Routes>
-       
       </div>
-<WhatsAppIcon/>
+      <Iconwhatsapp/>
+      
       <Footer />
     </>
   );
