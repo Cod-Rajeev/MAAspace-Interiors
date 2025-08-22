@@ -154,7 +154,7 @@ const Home = () => {
 
           {/* Overlay */}
           <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
-            <h1 className="text-4xl sm:text-3xl md:text-5xl poppins-bold-italic font-bold text-white">
+            <h1 className="text-5xl sm:text-3xl md:text-6xl poppins-bold-italic font-bold text-white">
               Blending Tradition and Modernity in Every Home
             </h1>
             <p className="text-base sm:text-base md:text-2xl poppins-regular text-white mt-4 md:mt-6 max-w-4xl">
