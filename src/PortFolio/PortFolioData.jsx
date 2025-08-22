@@ -15,6 +15,12 @@ import homedesign1 from "./images/homedesign1.jpg";
 import homedesign2 from "./images/homedesign2.jpg";
 import homedesign3 from "./images/homedesign3.jpg";
 import homedesign4 from "./images/homedesign4.jpg";
+import homedesign5 from "./images/homedesign5.jpg";
+import homedesign6 from "./images/homedesign6.jpg";
+import homedesign7 from "./images/homedesign7.jpg";
+import homedesign8 from "./images/homedesign8.jpg";
+import homedesign9 from "./images/homedesign9.jpg";
+
 
 
 
@@ -25,10 +31,16 @@ import office1 from "./images/office1.jpg";
 import office2 from "./images/office2.jpg";
 import office3 from "./images/office3.jpg";
 import office4 from "./images/office4.jpg";
+import office5 from "./images/office5.jpg";
+
 
 // Dining
 import dining1 from "./images/dining1.jpg";
 import dining2 from "./images/dining2.jpg";
+import dining3 from "./images/dining3.jpg";
+import dining4 from "./images/dining4.jpg";
+import dining5 from "./images/dining5.jpg";
+
 
 // Wardrobe1
 import wardrobe1 from "./images/wardrobe1.jpg";
@@ -38,7 +50,7 @@ import wardrobe4 from "./images/wardrobe4.jpg";
 import wardrobe5 from "./images/wardrobe5.jpg";
 
 
-// Double Bed Room
+// Double Bed Room  // Room //
 import room1 from "./images/room1.jpg";
 import room2 from "./images/room2.jpg";
 import room3 from "./images/room3.jpg";
@@ -71,6 +83,8 @@ import kitchen7 from "./images/kitchen7.jpg";
 import guestroom1 from "./images/guestroom1.jpg";
 import guestroom2 from "./images/guestroom2.jpg";
 import guestroom3 from "./images/guestroom3.jpg";
+import guestroom4 from "./images/guestroom4.jpg";
+
 
 
 // Guest Welcome 
@@ -101,21 +115,31 @@ const interiorDesignData = [
   },
   {
     id: 2,
-    image: [homedesign1, homedesign2, homedesign3, homedesign4],
+    image: [
+      homedesign1,
+      homedesign2,
+      homedesign3,
+      homedesign4,
+      homedesign5,
+      homedesign6,
+      homedesign7,
+      homedesign8,
+      homedesign9,
+    ],
     title: "Modern Home Design",
     description:
       "Modern home emphasizes simplicity, open layouts, natural light, neutral tones, bold accents, glass, steel, smart, and sustainable design.",
   },
   {
     id: 3,
-    image: [office1, office2, office3, office4],
+    image: [office1, office2, office3, office4, office5],
     title: "Office Work Area",
     description:
       "Office workspaces enhance focus with ergonomic furniture, natural light, modern storage, clutter-free design, balancing productivity, style, and creativity.",
   },
   {
     id: 4,
-    image: [dining1, dining2],
+    image: [dining1, dining2, dining3, dining4, dining5],
     title: "Dining Area",
     description:
       "Dining designs create warm, sophisticated spaces with statement lighting, stylish tables, upholstered chairs, curated décor, enhancing conversations and celebrations.",
@@ -166,7 +190,7 @@ const interiorDesignData = [
   },
   {
     id: 9,
-    image: [guestroom1, guestroom2, guestroom3],
+    image: [guestroom1, guestroom2, guestroom3, guestroom4],
     title: "Guest Room",
     description:
       "Guest rooms offer comfort with soft tones, cozy bedding, functional furniture, warm lighting, stylish décor, and welcoming, relaxing ambiance.",

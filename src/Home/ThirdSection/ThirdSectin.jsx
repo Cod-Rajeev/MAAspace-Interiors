@@ -4,10 +4,12 @@ import { Link } from "react-router-dom"
 import FirstImg from "../ThirdSection/box1.jpg"
 import SecondImg from "../ThirdSection/box2.jpg"   
 import ThirdImg from "../ThirdSection/box3.jpg"
+import ForImg from "../ThirdSection/box4.jpg"
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick'
+import { Import } from 'lucide-react'
 
 const ThirdSectin = () => {
 
@@ -120,6 +122,32 @@ const ThirdSectin = () => {
                 </h2>
                 <p className="text-neutral-500 text-base font-semibold md:text-lg grow">
                   Custom storage solutions that maximize space and organization.
+                </p>
+              </div>
+            </article>
+          </div>
+
+          <div className="px-2 md:px-5">
+            <article className="hover:scale-[1.04] card bg-white rounded-lg shadow-md cursor-pointer transform-gpu duration-300 flex flex-col">
+              <div className="transform hover:rounded-xl image-container overflow-hidden rounded-t-lg">
+                <img
+                  src={ForImg}
+                  alt="Sleek modern kitchen interior"
+                  className="w-full h-40 md:h-48 object-cover"
+                  onError={(e) => {
+                    e.target.onerror = null;
+                    e.target.src =
+                      "https://placehold.co/600x400?text=Image+Not+Found";
+                  }}
+                />
+              </div>
+              <div className="p-4 md:p-6 text-left flex flex-col grow">
+                <h2 className="text-yellow-700 font-semibold text-xl md:text-2xl mb-2 select-none">
+                  Commercial Interior
+                </h2>
+                <p className="text-neutral-500 text-base font-semibold md:text-lg grow">
+                  Smart commercial interiors that enhance space, style, and
+                  functionality.
                 </p>
               </div>
             </article>

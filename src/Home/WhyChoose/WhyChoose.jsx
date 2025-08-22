@@ -35,7 +35,7 @@ const WhyChoose = () => {
   ];
 
   return (
-    <section className="py-5 bg-[#4a7f8f]">
+    <section className="py-5 bg-[#06475a]">
       <div className="container mx-auto px-4">
         {/* Heading */}
         <div className="text-center py-1">
@@ -43,14 +43,13 @@ const WhyChoose = () => {
             Why Choose MAAspace ?
           </h2>
         </div>
-  
 
         {/* Cards Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-[#06475a] rounded-lg shadow-md hover:shadow-xl transition duration-300 hover:scale-105 flex flex-col
+              className=" bg-[#4a7f8f] rounded-lg shadow-md hover:shadow-xl transition duration-300 hover:scale-105 flex flex-col
               w-3/4 sm:w-full h-[220px] p-5 mx-auto"
             >
               {/* Number */}
