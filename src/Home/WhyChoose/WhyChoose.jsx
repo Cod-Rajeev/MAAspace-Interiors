@@ -23,9 +23,9 @@ const WhyChoose = () => {
         "Efficient management ensures timely delivery with precision and satisfaction.",
     },
     {
-      title: "Local Presence",
+      title: "Design Excellence",
       description:
-        "Strong client base in Hyderabad & Udaipur with local design expertise.",
+        "Crafting stunning spaces blending creativity, functionality, and modern trends.",
     },
     {
       title: "Personalized Design",
