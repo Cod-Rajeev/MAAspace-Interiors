@@ -11,6 +11,7 @@ import Designs from "./DesignData/Designs";
 import DesignById from "./DesignData/DesignById";
 import Blog from "./Blogs/Blog";
 import PortFolio from "./PortFolio/PortFolio";
+import WhatsAppIcon from "./whatsAppIcon";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
             element={<ConsultationBooking />}
           />
         </Routes>
+        <WhatsAppIcon/>
       </div>
 
       <Footer />

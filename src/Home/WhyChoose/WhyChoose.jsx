@@ -3,57 +3,67 @@ import React from "react";
 const WhyChoose = () => {
   const features = [
     {
-      title: "Expertise in Modern Design",
+      title: "Modern Design",
       description:
-        "MAAspace excels in creating innovative, functional, and stylish interiors for both residential and commercial spaces, blending creativity, comfort, and timeless elegance.",
+        "MAAspace creates innovative, functional, and stylish interiors blending comfort with elegance.",
     },
     {
-      title: "Comprehensive End-to-End Services",
+      title: "End-to-End Services",
       description:
-        "We handle everything from conceptual design to construction and furnishing, ensuring a seamless and consistent project execution.",
+        "From concept to furnishing, we ensure smooth and consistent project execution.",
     },
     {
-      title: "Transparent Process & Quality Materials",
+      title: "Quality Transparency",
       description:
-        "Clients experience clear communication throughout, with a commitment to using good-quality, durable materials.",
+        "Clients get clear communication with durable, high-quality materials.",
     },
     {
       title: "On-Time Delivery",
       description:
-        "Efficient project management means your interiors will be completed as promised without delays, ensuring quality, precision, and satisfaction.",
+        "Efficient management ensures timely delivery with precision and satisfaction.",
     },
     {
-      title: "Strong Local Presence",
+      title: "Local Presence",
       description:
-        "Based in key locations like Hyderabad and Udaipur, MAAspace has a strong client base and proven reliability in understanding local design trends.",
+        "Strong client base in Hyderabad & Udaipur with local design expertise.",
     },
     {
-      title: "Personalized Design Approach",
+      title: "Personalized Design",
       description:
-        "Every project is tailored to reflect each client’s unique lifestyle, taste, and vision, ensuring interiors that truly feel like 'home.'",
+        "Each project reflects client lifestyle, taste, and unique vision.",
     },
   ];
 
   return (
-    <section className="py-10 bg-[#51a5be]">
-      <div className="container mx-auto px-4 ">
+    <section className="py-5 bg-[#4a7f8f]">
+      <div className="container mx-auto px-4">
+        {/* Heading */}
         <div className="text-center py-1">
-          <h2 className="text-3xl md:text-4xl text-gray-900 poppins-bold text-primary mb-6">
+          <h2 className="text-3xl md:text-4xl text-white poppins-bold mb-6">
             Why Choose MAAspace ?
           </h2>
-          <div className="w-24 h-1 bg-accent mx-auto"></div>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+        {/* Cards Grid */}
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-white p-8 rounded-lg shadow-md hover:shadow-xl hover:shadow-gray-700 transition duration-300  hover:scale-105"
+              className="bg-[#06475a] rounded-lg shadow-md hover:shadow-xl transition duration-300 hover:scale-105 flex flex-col
+              w-3/4 sm:w-full h-[220px] p-5 mx-auto"
             >
-              <h3 className="text-xl font-bold text-primary mb-4 poppins-bold">
+              {/* Number */}
+              <div className="text-3xl md:text-4xl font-extrabold text-white mb-4">
+                {String(index + 1).padStart(2, "0")}
+              </div>
+
+              {/* Title */}
+              <h3 className="text-lg md:text-xl font-bold text-white mb-3 poppins-bold">
                 {feature.title}
               </h3>
-              <p className="text-gray-900 poppins-medium">
+
+              {/* Description */}
+              <p className="text-gray-100 text-sm md:text-base poppins-medium">
                 {feature.description}
               </p>
             </div>

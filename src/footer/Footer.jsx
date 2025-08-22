@@ -9,15 +9,26 @@ import {
 } from "lucide-react";
 import { Link } from 'react-router-dom';
 
+import Logo from "../navbar/Logo.png"
 
 const Footer = () => {
   return (
     <footer className="bg-neutral-800 poppins-regular text-start text-white w-full h-full">
       <div className="grid grid-cols-1 md:grid-cols-4 mx-auto items-start p-10 gap-5 md:gap-0">
         <div className="flex flex-col justify-start items-start  ">
-          <h6 className="text-2xl text-orange-500 pb-2 flex justify-start font-bold">
+           <img
+                        src={Logo}
+                        alt="Interior company logo"
+                        className="h-20 w-40 bg-white object-cover"
+                        onError={(e) => {
+                          e.target.onerror = null;
+                          e.target.src =
+                            "https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/d3d3d7ea-4e6e-48d0-8545-c642516f907d.png";
+                        }}
+                      />
+          {/* <h6 className="text-2xl text-orange-500 pb-2 flex justify-start font-bold">
             MAAspace Interiors
-          </h6>
+          </h6> */}
           <p className="text-sm leading-relaxed text-justify">
             MAAspace Interiors is a leading home interior design company turning
             dream spaces into reality. We blend beauty, functionality, and

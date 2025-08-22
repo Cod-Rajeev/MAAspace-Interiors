@@ -15,7 +15,7 @@ import homedesign1 from "./images/homedesign1.jpg";
 import homedesign2 from "./images/homedesign2.jpg";
 import homedesign3 from "./images/homedesign3.jpg";
 import homedesign4 from "./images/homedesign4.jpg";
-import homedesign5 from "./images/homedesign5.jpg";
+
 
 
 
@@ -101,7 +101,7 @@ const interiorDesignData = [
   },
   {
     id: 2,
-    image: [homedesign1, homedesign2, homedesign3, homedesign4, homedesign5],
+    image: [homedesign1, homedesign2, homedesign3, homedesign4],
     title: "Modern Home Design",
     description:
       "Modern home emphasizes simplicity, open layouts, natural light, neutral tones, bold accents, glass, steel, smart, and sustainable design.",
