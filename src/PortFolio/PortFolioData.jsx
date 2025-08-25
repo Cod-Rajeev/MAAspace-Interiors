@@ -115,16 +115,7 @@ const interiorDesignData = [
   },
   {
     id: 2,
-    image: [
-      homedesign1,
-      homedesign2,
-      homedesign3,
-      homedesign4,
-      homedesign5,
-      homedesign6,
-      homedesign7,
-      homedesign8,
-      homedesign9,
+    image: [ homedesign1, homedesign2, homedesign3, homedesign4, homedesign5, homedesign6, homedesign7, homedesign8, homedesign9,
     ],
     title: "Modern Home Design",
     description:
@@ -160,14 +151,7 @@ const interiorDesignData = [
   },
   {
     id: 7,
-    image: [
-      dressing1,
-      dressing2,
-      dressing3,
-      dressing4,
-      dressing5,
-      dressing6,
-      dressing7,
+    image: [ dressing1, dressing2, dressing3, dressing4, dressing5, dressing6, dressing7,
     ],
     title: "Dressing Design",
     description:
@@ -175,14 +159,7 @@ const interiorDesignData = [
   },
   {
     id: 8,
-    image: [
-      kitchen1,
-      kitchen2,
-      kitchen3,
-      kitchen4,
-      kitchen5,
-      kitchen6,
-      kitchen7,
+    image: [ kitchen1, kitchen2, kitchen3, kitchen4, kitchen5, kitchen6, kitchen7,
     ],
     title: "Moduler Kitchen",
     description:
@@ -209,13 +186,5 @@ const interiorDesignData = [
     description:
       "Showroom design focuses on elegance and functionality to create a lasting impression. With strategic lighting, premium display.",
   },
-
-  // {
-  //   id: 12,
-  //   // image: [gallery15,],
-  //   title: "The Minimal Mood",
-  //   description:
-  //     "Simplicity meets sophistication in The Minimal Mood, where clean lines, open spaces, and calming tones create clarity and peace. Every element is purposeful, with no clutter—only intentional design. Natural light, neutral colors, and sleek furniture define a serene, modern lifestyle, proving that “less is more” in timeless elegance.",
-  // },
 ];
 export default interiorDesignData;
