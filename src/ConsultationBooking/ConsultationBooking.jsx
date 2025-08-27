@@ -6,18 +6,22 @@ import { useEffect } from 'react';
 const ConsultationBooking = () => {
    const location = useLocation();
 
-    const   title1 = "Consultation Booking",
-            title2 = "Design Consultation",
-            title3 = "Expert Consultation",
-            title4 = "Personalized Advice",
-            data1 = "01",
-            data2 = "02",
-            data3 = "03",
-            data4 = "04",
-            description1 = "Schedule a consultation with our experts to discuss your design needs and get personalized advice.t.", 
-            description2 = "Book a design consultation to explore innovative solutions tailored to your project requirements.",
-            description3 = "Get expert insights and recommendations to enhance your design project and achieve requirements your goals.",
-            description4 = "Receive personalized advice from our design professionals to elevate your  requirements to the next.";
+    const title1 = "Consultation Booking",
+      title2 = "Design Consultation",
+      title3 = "Expert Consultation",
+      title4 = "Personalized Advice",
+      data1 = "01",
+      data2 = "02",
+      data3 = "03",
+      data4 = "04",
+      description1 =
+        "Schedule a consultation with our experts to discuss your design needs and get personalized advice.",
+      description2 =
+        "Book a design consultation to explore innovative solutions tailored to your project requirements.",
+      description3 =
+        "Get expert insights and recommendations to enhance your design project and achieve requirements your goals.",
+      description4 =
+        "Receive personalized advice from our design professionals to elevate your  requirements to the next.";
 
             
    useEffect(() => {

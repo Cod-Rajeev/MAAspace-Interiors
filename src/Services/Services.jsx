@@ -37,19 +37,19 @@ const Services = () => {
               2-BHK Design
             </strong>
 
-            <p className="text-gray-700 mb-4 poppins-semibold text-center">
+            <p className="text-gray-700 mb-4 poppins-semibold ">
               A 2BHK apartment offers just the right balance of space and
               comfort. With smart planning and thoughtful interiors, every
               corner can be designed to maximize functionality without
               compromising style.
             </p>
-            <p className="text-gray-700 mb-4 poppins-semibold text-center">
+            <p className="text-gray-700 mb-4 poppins-semibold text-start">
               From elegant living rooms to cozy bedrooms and efficient kitchens,
               our designs transform compact spaces into luxurious experiences.
               Whether you love modern minimalism or vibrant traditional themes,
               we adapt the interiors to suit your lifestyle.
             </p>
-            <p className="text-gray-700 poppins-bold text-center">
+            <p className="text-gray-700 poppins-bold text-start">
               Your 2BHK is more than just a house — it’s your personal haven,
               and we’ll work closely with you to bring your vision to life.
             </p>
@@ -84,7 +84,7 @@ const Services = () => {
               <h2 className="text-2xl md:text-4xl cormorant-garamond-bold uppercase mb-2 md:mb-8">
                 3-BHK Interior
               </h2>
-              <p className="text-gray-600 poppins-medium text-sm md:text-lg">
+              <p className="text-gray-600 text-start poppins-medium text-sm md:text-lg">
                 A 3BHK home offers the perfect blend of space, comfort, and
                 style. From a spacious living room designed for family
                 gatherings to cozy, well-planned bedrooms that reflect your
@@ -95,6 +95,9 @@ const Services = () => {
                 minimalism, our 3BHK interiors ensure that your home is not just
                 bigger, but smarter, stylish, and truly yours.
               </p>
+              <h1 className="text-black poppins-semibold text-xl md:text-4xl text-center p-2 md:p-5">
+                MAAspace Interiors
+              </h1>
               {/* Button Centered */}
               <div className="flex justify-center w-full">
                 <button
@@ -216,7 +219,7 @@ const Services = () => {
                         comfortable, and truly luxurious home.
                       </p>
 
-                      <h1 className="text-black poppins-semibold text-2xl md:text-4xl text-center p-0 md:p-5">
+                      <h1 className="text-black poppins-semibold text-xl md:text-4xl text-center p-2 md:p-5">
                         MAAspace Interiors
                       </h1>
                       {/* Button Centered */}
