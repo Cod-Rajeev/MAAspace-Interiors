@@ -24,7 +24,6 @@ const Navbar = () => {
           {/* Logo */}
           <Link
             // onClick={() => setIsExpanded(false)}
-            to={"/"}
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);

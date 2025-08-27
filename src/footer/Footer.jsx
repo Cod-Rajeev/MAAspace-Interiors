@@ -133,8 +133,7 @@ const Footer = () => {
       </div>
       {/* Copyright */}
       <div className="bg-neutral-900 text-center text-sm p-2">
-        &copy; 2025 Copyright -{" "}
-        <Link target='blank' to={"https://ssbponetwork.com/index.php"}>SSBPO</Link>
+        &copy;2025 Maaspace Interiors. All Rights Reserved.
       </div>
     </footer>
   );

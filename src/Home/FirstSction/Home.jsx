@@ -34,11 +34,11 @@ const Home = () => {
           />
 
           {/* Overlay */}
-          <div className="absolute inset-0 bg-black/20 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
-            <h1 className="text-5xl sm:text-3xl md:text-6xl poppins-bold-italic font-bold text-white">
-              Blending Tradition and Modernity in Every Home
+          <div className="absolute inset-0 bg-black/50 flex flex-col items-center justify-center text-center px-6 sm:px-12 md:px-20 gap-12 md:gap-0 lg:px-40">
+            <h1 className="text-5xl md:text-7xl poppins-bold-italic text-white">
+              Blending Tradition & Modernity – Luxury Interiors in Udaipur
             </h1>
-            <p className="text-base sm:text-base md:text-2xl poppins-regular text-white mt-4 md:mt-6 max-w-4xl">
+            <p className="text-base  md:text-2xl poppins-regular text-white mt-4 md:mt-6 max-w-4xl">
               MAAspace has been transforming homes since 2017 — honoring
               cultural roots while embracing modern elegance. Each project
               blends tradition with innovation, creating spaces full of beauty,
