@@ -36,8 +36,8 @@ const AboutUs = () => {
                   <strong>Mobile:</strong> +91 6350498559
                 </p>
                 <p>
-                  <strong>Address:</strong> 11 A shanti Niketan Link
-                  <p>Road Badgav Udaipur 313011 India</p>
+                  <strong>Address:</strong> Shree complex colony Bedla
+                  <p> Badgav Link Road Udaipur 313011</p>
                 </p>
               </div>
             </div>

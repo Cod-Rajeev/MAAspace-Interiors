@@ -121,7 +121,8 @@ const Footer = () => {
             Contact
           </h6>
           <p className="flex  gap-2">
-            <MapPin /> 11 A shanti Niketan Link Road Badgav Udaipur 313011
+            <MapPin /> Shree complex colony Bedla Badgav Link Road Udaipur
+            313011
           </p>
           <p className="flex  gap-2">
             <MailPlus /> info@maaspaceinteriors.com
