@@ -57,7 +57,7 @@ const Navbar = () => {
             {/* <Link to={'/services'} className="hover:text-yellow-200 transition">Services</Link> */}
             <li className="relative group list-none">
               <Link
-                to={"/Services"}
+                to={"/services"}
                 onClick={() => {
                   setIsExpanded(false);
                   window.scrollTo(0, 0);
@@ -137,7 +137,7 @@ const Navbar = () => {
               Contact Us
             </a> */}
             <Link
-              to={"/AboutUs"}
+              to={"/aboutUs"}
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -147,7 +147,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              to={"/ConsultationBooking"}
+              to={"/consultationBooking"}
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -298,7 +298,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to={"/AboutUs"}
+            to={"/aboutUs"}
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -308,7 +308,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to={"/ConsultationBooking"}
+            to={"/consultationBooking"}
             // onClick={() => setIsExpanded(false)}
             onClick={() => {
               setIsExpanded(false);

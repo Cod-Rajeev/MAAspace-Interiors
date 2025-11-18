@@ -12,7 +12,7 @@ const Home = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/ConsultationBooking#contact"); 
+    navigate("/consultationBooking#contact"); 
 
   };
 

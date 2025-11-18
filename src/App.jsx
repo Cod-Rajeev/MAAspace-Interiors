@@ -29,9 +29,9 @@ function App() {
 
           <Route path="/gallery" element={<PortFolio />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
+          <Route path="/aboutUs" element={<AboutUs />} />
           <Route
-            path="/ConsultationBooking"
+            path="/consultationBooking"
             element={<ConsultationBooking />}
           />
         </Routes>

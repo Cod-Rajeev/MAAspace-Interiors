@@ -72,7 +72,7 @@ const Footer = () => {
             Gallery
           </Link>
           <Link
-            to="/ConsultationBooking"
+            to="/consultationBooking"
             onClick={() => window.scrollTo(0, 0)}
             className="hover:text-amber-500 gap-3 flex flex-row"
           >
