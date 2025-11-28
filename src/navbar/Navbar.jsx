@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex justify-between h-24 items-center">
           {/* Logo */}
           <Link
-            // onClick={() => setIsExpanded(false)}
+            to="/"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
