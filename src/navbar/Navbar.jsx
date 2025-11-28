@@ -45,7 +45,7 @@ const Navbar = () => {
           {/* Desktop Menu */}
           <div className="hidden md:flex space-x-6 text-lg poppins-semibold ">
             <Link
-              to={"/"}
+              to="/"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -57,7 +57,7 @@ const Navbar = () => {
             {/* <Link to={'/services'} className="hover:text-yellow-200 transition">Services</Link> */}
             <li className="relative group list-none">
               <Link
-                to={"/services"}
+                to="/services"
                 onClick={() => {
                   setIsExpanded(false);
                   window.scrollTo(0, 0);
@@ -72,7 +72,7 @@ const Navbar = () => {
 
             <li className="relative group list-none">
               <Link
-                to={"/designs"}
+                to="/designs"
                 onClick={() => {
                   setIsExpanded(false);
                   window.scrollTo(0, 0);
@@ -114,7 +114,7 @@ const Navbar = () => {
             </li>
 
             <Link
-              to={"/gallery"}
+              to="/gallery"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -124,7 +124,7 @@ const Navbar = () => {
               Gallery
             </Link>
             <Link
-              to={"/blog"}
+              to="/blog"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -137,7 +137,7 @@ const Navbar = () => {
               Contact Us
             </a> */}
             <Link
-              to={"/aboutUs"}
+              to="/aboutUs"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -147,7 +147,7 @@ const Navbar = () => {
               About Us
             </Link>
             <Link
-              to={"/consultationBooking"}
+              to="/consultationBooking"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -210,7 +210,7 @@ const Navbar = () => {
       >
         <div className="px-2 pt-2 pb-4 space-y-1 text-gray-700 text-base font-medium">
           <Link
-            to={"/"}
+            to="/"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -220,7 +220,7 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to={"/services"}
+            to="/services"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -232,7 +232,7 @@ const Navbar = () => {
 
           <li className="relative group list-none">
             <Link
-              to={"/designs"}
+              to="/designs"
               onClick={() => {
                 setIsExpanded(false);
                 window.scrollTo(0, 0);
@@ -277,7 +277,7 @@ const Navbar = () => {
           </li>
 
           <Link
-            to={"/gallery"}
+            to="/gallery"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -287,7 +287,7 @@ const Navbar = () => {
             Gallery
           </Link>
           <Link
-            to={"/blog"}
+            to="/blog"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -298,7 +298,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            to={"/aboutUs"}
+            to="/aboutUs"
             onClick={() => {
               setIsExpanded(false);
               window.scrollTo(0, 0);
@@ -308,7 +308,7 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to={"/consultationBooking"}
+            to="/consultationBooking"
             // onClick={() => setIsExpanded(false)}
             onClick={() => {
               setIsExpanded(false);
