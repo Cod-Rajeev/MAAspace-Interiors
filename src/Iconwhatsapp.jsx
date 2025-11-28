@@ -18,7 +18,7 @@ const Iconwhatsapp = () => {
     <>
       <button
         onClick={handleWhatsappClick}
-        className="fixed bottom-40 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-50"
+        className="fixed bottom-20 right-5 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 transition duration-300 z-50"
       >
         <FaWhatsapp size={40} />
       </button>
